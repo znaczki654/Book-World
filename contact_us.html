@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Book World</title>    
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/fontello.css" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Cabin+Condensed:500&amp;subset=latin-ext" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lato:700i&amp;subset=latin-ext" rel="stylesheet">
+        <link rel="icon" href="img/book.png">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>   
+        <script src="JS/jquery.scrollTo.min.js"></script>
+
+    </head>
+    
+    <body onload="zmienslajd()" >
+       
+       <main>
+           <article>
+               <nav>
+                   <ul>
+                       <li><a href='index.html'>Home</a></li>
+                            <li id='main'><a href='categories.html'>Categories</a>
+                                <ul id='categories'>
+                                    <li class="cat"><a id='link1' href='categories.html#cat1'>Science-Fiction</a></li>
+                                    <li class="cat"><a id='link2' href='categories.html#cat2'>Fantasy</a></li>
+                                    <li class="cat"><a id='link3' href='categories.html#cat3'>Thriller</a></li>
+                                    <li class="cat"><a id='link4' href='categories.html#cat4'>Horror</a></li>
+                                    <li class="cat"><a id='link5' href='categories.html#cat5'>Comedy</a></li>
+                                    <li class="cat"><a id='link6' href='categories.html#cat6'>Self-Help</a></li>
+                                    <li class="cat"><a id='link7' href='categories.html#cat7'>Philosophy</a></li>   
+                                </ul>
+                            </li>
+                            <li id='border'></li>
+                            <li id='contact'><a href='contact_us.html'>Contact us</a></li>
+                            <li ><a href='aboutus.html'>About us</a></li>
+                            <li><a href='feedback.html'>Feedback</a></li>          
+                   </ul>
+                   <img src="img/logo3.png" alt="" />
+               </nav>
+           </article>
+           <article>
+                <div id='contact-us'>
+                    <div class='contact-text'>Phone number: 892 245 545</div>
+                    <div class='contact-text'> E-mail: bookworld@contact.com</div>
+                    <div class='contact-text'>Address: Imaginary 28, Gliwice</div>
+                    <div id='map-button'>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;See on map>></div>
+                </div>
+               <div id='title'>Contact Us</div>
+                <div id='contact-form'>
+                    <div class='contact-text2'>If you have any questions about cooperation or you want to add some advertisements on this website, just write them below, we'll try to write back in few hours.</div>
+                    <input id='name' placeholder="Write your name">
+                    <textarea id='comment-us' ></textarea>
+                    <div id='submit-button' >>>Submit</div>
+                </div>
+               <div style='clear: both'></div>
+                <div id='map'></div>
+                  <script>
+                      // Initialize and add the map
+                      function initMap() {
+                        // The location of Uluru
+                        var gliwice = {lat: 50.295850, lng:  18.670822};
+                    // The map, centered at Uluru
+                        var map = new google.maps.Map(
+                        document.getElementById('map'), {zoom: 12, center: gliwice});
+                        // The marker, positioned at Uluru
+                        var marker = new google.maps.Marker({position: gliwice, map: map});
+                      }
+                </script>
+           </article>
+       </main> 
+        
+       <footer>
+           <div id="footer">
+               <div class='socialmedia'><a href='https://www.facebook.com' target="_blank"><i class="icon-facebook"></i></a></div>
+               <div class='socialmedia' id='gplus'><a href='https://plus.google.com' target="_blank"><i class="icon-gplus"></i></a></div>
+               <div class='socialmedia'><a href='https://www.youtube.com' target="_blank"><i class="icon-youtube-play"></i></a></div>
+               <div class='socialmedia'><a href='https://www.twitter.com' target="_blank"><i class="icon-twitter-bird"></i></a></div>
+               <div style='clear: both'></div>
+               <details>
+               <summary id="copy-right">
+                   &copy; All rights reserved</summary>
+                   <p id="copy-right2">The site was created by Jan Kustra &amp; Szymon Kuc.</p></details>
+               
+           </div>
+       </footer>
+        <script src='JS/fix.js'></script>
+        <script async defer
+    src="https://maps.googleapis.com/maps/api/js?&callback=initMap">
+    </script>
+    </body>
+</html>

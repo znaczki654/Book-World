@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Book World</title>    
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/fontello.css" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Cabin+Condensed:500&amp;subset=latin-ext" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lato&amp;subset=latin-ext" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Slabo+27px&amp;subset=latin-ext" rel="stylesheet">
+        <link rel="icon" href="img/book.png">
+        
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        
+        
+	       <script>
+               function op(obj) {
+                   x=document.getElementById(obj);
+                   if(x.style.display == "block")
+                   {
+                    x.style.display = "none"
+                   }
+                   else 
+                   {
+                       x.style.display = "block"
+                   }
+                    
+                }
+            </script>
+
+    </head>
+    
+    <body onload="zmienslajd()" >
+       
+       <main>
+           <article>
+               <nav>
+                   <ul>
+                       <li><a href="index.html">Home</a></li>
+                            <li id="main"><a href="categories.html">Categories</a>
+                                <ul id="categories">
+                                    <li class="cat"><a id="link1" href="categories.html#cat1">Science-Fiction</a></li>
+                                    <li class="cat"><a id="link2" href="categories.html#cat2">Fantasy</a></li>
+                                    <li class="cat"><a id="link3" href="categories.html#cat3">Thriller</a></li>
+                                    <li class="cat"><a id="link4" href="categories.html#cat4">Horror</a></li>
+                                    <li class="cat"><a id="link5" href="categories.html#cat5">Comedy</a></li>
+                                    <li class="cat"><a id="link6" href="categories.html#cat6">Self-Help</a></li>
+                                    <li class="cat"><a id="link7" href="categories.html#cat7">Philosophy</a></li>   
+                                </ul>
+                            </li>
+                            <li id="border"></li>
+                            <li id="contact"><a href="contact_us.html">Contact us</a></li>
+                            <li ><a href="aboutus.html">About us</a></li>
+                            <li><a href="feedback.html">Feedback</a></li>            
+                   </ul>
+                   <img src="img/logo3.png" alt="" />
+               </nav>
+           </article>
+           <article>
+               <section>
+                    <div class="info">
+                <!-- Author + Genre + Best price -->
+                        <div id="author">Author : &nbsp;Bren Brown</div>
+                        <div id="cat">Genre : &nbsp;Self-help</div>
+                        <div id="price">Best price : &nbsp;€11.99&#42;<p style="font-size:20px;color:dimgrey;margin-top: 5px;">Buy at: Book Depository</p></div>
+                   </div>
+                   
+                <!-- Title + Description -->
+                 
+                  <div class="content"><img src="img/braving-the-wilderness.jpg" alt="" style="width: 260px; height: 400px;" /> <h1>Braving the Wilderness</h1>&nbsp;&nbsp;&nbsp;#1 NEW YORK TIMES BESTSELLER • A timely and important new book that challenges everything we think we know about cultivating true belonging in our communities, organizations, and culture, from the #1 bestselling author of Rising Strong, Daring Greatly, and The Gifts of Imperfection
+                      <br><br>
+                  &nbsp;&nbsp;&nbsp;“True belonging doesn’t require us to change who we are. It requires us to be who we are.” Social scientist Brené Brown, PhD, LMSW, has sparked a global conversation about the experiences that bring meaning to our lives—experiences of courage, vulnerability, love, belonging, shame, and empathy. In Braving the Wilderness, Brown redefines what it means to truly belong in an age of increased polarization. With her trademark mix of research, storytelling, and honesty, Brown will again change the cultural conversation while mapping a clear path to true belonging.
+                      <br><br>
+                   &nbsp;&nbsp;&nbsp;Brown argues that we’re experiencing a spiritual crisis of disconnection, and introduces four practices of true belonging that challenge everything we believe about ourselves and each other. She writes, “True belonging requires us to believe in and belong to ourselves so fully that we can find sacredness both in being a part of something and in standing alone when necessary. But in a culture that’s rife with perfectionism and pleasing, and with the erosion of civility, it’s easy to stay quiet, hide in our ideological bunkers, or fit in rather than show up as our true selves and brave the wilderness of uncertainty and criticism. But true belonging is not something we negotiate or accomplish with others; it’s a daily practice that demands integrity and authenticity. It’s a personal commitment that we carry in our hearts.” Brown offers us the clarity and courage we need to find our way back to ourselves and to each other. And that path cuts right through the wilderness.
+                    </div>
+                  <div class="aside">
+                       <div class="available"><img alt="" src="img/available.png" /></div>
+                      <div id="rate">Rate:<span style="font-size: 50px;"><br><span class="star" id="star1" onclick="S1()">★</span><span class="star" id="star2">★</span><span class="star" id="star3">★</span><span class="star" id="star4">★</span><span class="star" id="star5">★</span></span><br><div style="clear: both"></div><span style="font-size:18px;color: gold;">Average: 3,8</span></div>  
+                      
+                <!-- Specs -->
+                      
+                       <div id="spec"> 
+                      <h2>Specifications: </h2>
+                      Publisher: Bloomsbury Publishing PLC
+                      <br><br><br>
+                      ISBN: 9781408855652
+                       <br><br><br>
+                      Number of pages: 352
+                       <br><br><br>
+                      Weight: 280 g
+                       <br><br><br>
+                      Dimensions: 128 x 196 x 26mm </div>
+                     
+                   </div>
+                 <div style="clear: both"></div>
+                 <div onClick="op('review'); return false;" id="review-button" >&gt;&gt;Reviews</div>
+                 
+                 <!-- Review -->
+                 
+                 <div id="review">
+
+                &nbsp;&nbsp;&nbsp;I gave this book five stars because as usual Brown has done her research, and she is a masterful storyteller. These are the two passions of my life: research and storytelling.
+                     <br><br>
+                &nbsp;&nbsp;&nbsp;I'm a Licensed Professional Counselor and an author, so I devour Brown's books. My favorite is The Power of Vulnerability. I have watched her TED talks probably a hundred times. I tell every one of my clients to read her books and watch her videos. I'm a huge fan.
+                     <br><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;However, this book wasn't fun or pleasurable the way her other books have been. I listened on Audible and felt pained much of the time. Part of that is because I identify with the ways I've armored up after the 2016 election. I lean conservative and have tried to share my views with civility and have always encouraged people to respectfully share theirs. Yet I've been called every name you could imagine. Sadly the worst offenses came from my Christian brothers and sisters who see things differently. One of the cruelest people was an author who wrote a book (that I purchased) about how we need to listen to peoples' stories so we can understand their points of view. Oh the irony. I finally reached a place where I lumped all of them into a group of haters. I stopped listening and stopped caring what the opposing side had to say.
+                     <br><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;With that as my history, I found Brown's research about dehumanization helpful. I needed her information about what helps people who are in heated debates.
+                     <br><br>
+                &nbsp;&nbsp;&nbsp; When I'm in the counseling setting this is easy for me to do. I love to hear all sorts of views, even ones I disagree with. I want to know how and why people see the world the way they do. But, experiencing our country so divided, I admit I had armored up and sided up.
+                   </div>
+
+                     
+                 <div id="buy">
+                     <h1>Buy now</h1>
+                     <a href="https://www.amazon.com/Braving-Wilderness-quest-belonging-courage/dp/1785041754/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr=" target="_blank"><div class="depository"><img src="img/amazon-logo.png" alt="" style=" float: left; width: 40%; height: 90%; margin-top:2.5%" /><div class="buy-price">$16.99</div></div></a>
+                     
+                     <a href="https://www.waterstones.com/book/braving-the-wilderness/brene-brown/9781785041754" target="_blank"><div class="depository"><img src="img/waterstones_logo.png" alt="" style=" float: left; width: 120px; height: 120px;margin-left: 10px;" /><div class="buy-price">£12.99</div></div></a>
+                         
+                     <a href="https://www.bookdepository.com/Braving-Wilderness-Brene-Brown/9781785041754?ref=grid-view&qid=1532793326382&sr=1-1" target="_blank"><div class="depository"><img src="img/bookdepository-logo.jpg" alt="" style=" float: left; width: 40%; height: 90%; margin-top:2%" /><div class="buy-price">€11.99&#42;</div></div></a>
+                     
+                     <a href="https://wordery.com/braving-the-wilderness-brene-brown-9781785041754?cTrk=OTU5NTY3NDZ8NWI1YzkyNTBiYmE0ODoxOjE6NWI1YzkyMmYyNzdmMzIuMTA3MTU3ODg6NDEzOTc1MDc%3D" target="_blank"><div class="depository"><img src="img/wordery-logo.jpg" alt="" style=" float: left; width: 50%; height: 100%; " /><div class="buy-price">€14.67&#42;</div></div></a>
+                        
+                         <div style="clear: both"></div>
+                    <p style="color:dimgray; font-size: 18px;">&#42; This price contains free delievery</p>
+                 </div>
+               </section>
+               <section>
+                    <div id="comments">Comments</div>
+                    
+                        <div><input type="text" id="name" placeholder="Write your name" ></div>
+                        <div style="height:500px; width:600px; margin:0px;float:left">
+                            <textarea id="comment" ></textarea>
+                            <div id="submit-button" >&gt;&gt;Submit</div>
+                        </div>
+                        <div class="examples">
+                            <p>Author: John</p>
+                           
+                            VERY NICE BOOK!</div>
+                        <div class="examples">
+                            <p>Author: Huvax</p>
+                           
+                            Interesting books which has a good plot!</div>
+                        <div class="examples">
+                            <p>Author: XY41</p>
+                           
+                            Great idea to publish the book like this!
+                        </div>
+
+                        <div style="clear: both"></div>
+                    
+                        
+               </section>
+           </article>
+           
+          
+       </main> 
+        
+       <footer>
+           <div id="footer">
+               <div class="socialmedia"><a href="https://www.facebook.com" target="_blank"><i class="icon-facebook"></i></a></div>
+               <div class="socialmedia" id="gplus"><a href="https://plus.google.com" target="_blank"><i class="icon-gplus"></i></a></div>
+               <div class="socialmedia"><a href="https://www.youtube.com" target="_blank"><i class="icon-youtube-play"></i></a></div>
+               <div class="socialmedia"><a href="https://www.twitter.com" target="_blank"><i class="icon-twitter-bird"></i></a></div>
+               <div style="clear: both"></div>
+               <details>
+               <summary id="copy-right">
+                   &copy; All rights reserved</summary>
+                   <p id="copy-right2">The site was created by Jan Kustra &amp; Szymon Kuc.</p></details>
+               
+           </div>
+       </footer>
+        <script src="JS/rate.js"></script>
+  
+    </body>
+</html>

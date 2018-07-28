@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Book World</title>    
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/fontello.css" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Cabin+Condensed:500&amp;subset=latin-ext" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lato&amp;subset=latin-ext" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Slabo+27px&amp;subset=latin-ext" rel="stylesheet">
+        <link rel="icon" href="img/book.png">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        
+        
+	       <script>
+               function op(obj) {
+                   x=document.getElementById(obj);
+                   if(x.style.display == "block")
+                   {
+                    x.style.display = "none"
+                   }
+                   else 
+                   {
+                       x.style.display = "block"
+                   }
+                    
+                }
+            </script>
+
+    </head>
+    
+    <body onload="zmienslajd()" >
+       
+       <main>
+           <article>
+               <nav>
+                   <ul>
+                       <li><a href='index.html'>Home</a></li>
+                            <li id='main'><a href='categories.html'>Categories</a>
+                                <ul id='categories'>
+                                    <li class="cat"><a id='link1' href='categories.html#cat1'>Science-Fiction</a></li>
+                                    <li class="cat"><a id='link2' href='categories.html#cat2'>Fantasy</a></li>
+                                    <li class="cat"><a id='link3' href='categories.html#cat3'>Thriller</a></li>
+                                    <li class="cat"><a id='link4' href='categories.html#cat4'>Horror</a></li>
+                                    <li class="cat"><a id='link5' href='categories.html#cat5'>Comedy</a></li>
+                                    <li class="cat"><a id='link6' href='categories.html#cat6'>Self-Help</a></li>
+                                    <li class="cat"><a id='link7' href='categories.html#cat7'>Philosophy</a></li>   
+                                </ul>
+                            </li>
+                            <li id='border'></li>
+                            <li id='contact'><a href='contact_us.html'>Contact us</a></li>
+                            <li ><a href='aboutus.html'>About us</a></li>
+                            <li><a href='feedback.html'>Feedback</a></li>            
+                   </ul>
+                   <img src="img/logo3.png" alt="" />
+               </nav>
+           </article>
+           <article>
+               <section>
+                    <div class='info'>
+                        <div id='author'>Author : &nbsp;Gayle Forman </div>
+                        <div id='cat'>Genre : &nbsp;Fiction</div>
+                        <div id='price'>Best price : &nbsp;£6.49<p style='font-size:20px;color:dimgrey;margin-top: 5px;'>Buy at: Waterstones</p></div>
+                   </div>
+                
+                  <div class='content'><img src="img/3.jpg" alt="" style="width: 260px; height: 400px;" /> <h1>If I stay</h1>&nbsp;&nbsp;&nbsp;Life can change in an instant. A cold February morning . . . a snowy road . . . and suddenly all of Mia's choices are gone. Except one. As alone as she'll ever be, Mia must make the most difficult choice of all. Gripping, heartrending and ultimately life-affirming, If I Stay will make you appreciate all that you have, all that you've lost - and all that might be.
+                   <br><br>
+                   &nbsp;&nbsp;&nbsp;In the blink of an eye everything changes. Seventeen year-old Mia has no memory of the accident; she can only recall what happened afterwards, watching her own damaged body being taken from the wreck. Little by little she struggles to put together the pieces- to figure out what she has lost, what she has left, and the very difficult choice she must make. Heartwrenchingly beautiful, this will change the way you look at life, love, and family. Now a major motion picture starring Chloe Grace Moretz, Mia's story will stay with you for a long, long time.
+                   <br><br>
+                   &nbsp;&nbsp;&nbsp;The critically acclaimed, bestselling novel from Gayle Forman, author of Where She Went, Just One Day, and Just One Year. Soon to be a major motion picture, starring Chloe Moretz! In the blink of an eye everything changes. Seventeen -year-old Mia has no memory of the accident; she can only recall what happened afterwards, watching her own damaged body being taken from the wreck. Little by little she struggles to put together the pieces- to figure out what she has lost, what she has left, and the very difficult choice she must make. Heartwrenchingly beautiful, this will change the way you look at life, love, and family. Now a major motion picture starring Chloe Grace Moretz, Mia's story will stay with you for a long, long time.
+                    </div>
+                  <div class='aside'>
+                       <div class='available'><img alt='' src='img/available.png' /></div>
+                      <div id='rate'>Rate:<span style='font-size: 50px;'><br><span class='star' id='star1' onclick="S1()">★</span><span class='star' id='star2'>★</span><span class='star' id='star3'>★</span><span class='star' id='star4'>★</span><span class='star' id='star5'>★</span></span><br><div style="clear: both"></div><span style="font-size:18px;color: gold;">Average: 3,8</span></div>  
+                       <div id='spec'> 
+                      <h2>Specifications: </h2>
+                      Publisher: Transworld Publishers Ltd
+                      <br><br><br>
+                      ISBN: 9780552775458
+                       <br><br><br>
+                      Number of pages: 272
+                       <br><br><br>
+                      Weight: 196 g
+                       <br><br><br>
+                      Dimensions: 198 x 127 x 18 mm</div>
+                     
+                   </div>
+                 <div style="clear: both"></div>
+                 <div onClick="op('review'); return false;" id='review-button' >>>Reviews</div>
+                 <div id='review'>&nbsp;&nbsp;&nbsp;If I Stay follows the story of seventeen year old Mia Hall who is extremely talented at playing the cello and has to make a huge decision: whether to pursue her dreams and go to Julliard and leave her family and her beloved boyfriend, Adam behind or not. However, the story takes a turn for the worst when Mia and her family get into a devastating car crash which immediately kills all of Mia's family apart from Mia, who is in a coma. The rest of the story then follows her out-of-body experience where she has to make the biggest decision of all: to wake up and be reunited with Adam or die and join her family in the afterlife.<br><br>
+                 &nbsp;&nbsp;&nbsp;I have to admit, this story was immensely devastating but I loved it all the same. What I loved the most was the originality of it; I mean, it takes real talent to really think outside the box like the author has. It really made me wonder what coma patients must be going through while there are in a coma, whether or not they actually know what is going on and whether or not they can decide to wake up. These are all crazy thoughts but I love a book that really makes me think about what I would do if I was in that particular situation. And of course, as I always say 'If a book makes you cry, it is a good book', therefore If I Stay is an excellent read and I would definitely recommend it to those who are looking for a sad yet completely different book.<br><br>
+                 &nbsp;&nbsp;&nbsp;I have also watched the movie that recently came out and after reading the book, I must say that the book is a lot better because you get to feel a lot closer to the main character and you get a detailed description of what is going on and again, it really makes you think, whilst the movie was just really straightforward (which is great if you're into that, unlike me). However, always remember and I can't stress this enough: NEVER JUDGE A BOOK BY ITS MOVIE.<br><br>
+                 &nbsp;&nbsp;&nbsp;Finally, I would like to finish off by saying that, in all honesty, I feel as though this book is a little better than The Fault In Our Stars, which has been my favourite book since 2013. I would give it five stars out of five because I loved every bit of it.<br><br>
+                 </div>
+                 <div id='buy'>
+                     <h1>Buy now</h1>
+                     <a href='https://www.amazon.de/If-I-Stay-Gayle-Forman/dp/014241543X' target="_blank"><div class='depository'><img src="img/amazon-logo.png" alt="" style=" float: left; width: 40%; height: 90%; margin-top:2.5%" /><span class='buy-price'>€8.99</span></div></a>
+                     
+                     <a href='https://www.waterstones.com/book/if-i-stay/gayle-forman/9781862308312' target="_blank"><div class='depository'><img src="img/waterstones_logo.png" alt="" style=" float: left; width: 120px; height: 120px;margin-left: 10px;" /><div class='buy-price'>£6.49</div></div></a>
+                         
+                     <a href='https://www.bookdepository.com/If-I-Stay-Gayle-Forman/9781862308312?ref=grid-view&qid=1531987640708&sr=1-2' target="_blank"><div class='depository'><img src="img/bookdepository-logo.jpg" alt="" style=" float: left; width: 40%; height: 90%; margin-top:2%" /><div class='buy-price'>€7.98&#42;</div></div></a>
+                     
+                    <a href='https://wordery.com/if-i-stay-gayle-forman-9781862308312?cTrk=OTQ2ODYyNjF8NWI1MDQ2ZGNkMzEwODoxOjE6NWI1MDQ1OGE3ZWQ0MjEuNzkwOTQ3Nzk6NzU1YWM3NWQ%3D' target="_blank"><div class='depository'><img src="img/wordery-logo.jpg" alt="" style=" float: left; width: 50%; height: 100%; " /><div class='buy-price'>€9.48&#42;</div></div></a>
+                        
+                         <div style="clear: both"></div>
+                    <p style='color:dimgray; font-size: 18px;'>&#42; This price contains free delievery</p>
+                 </div>
+               </section>
+               <section>
+                    <div id='comments'>Comments</div>
+                    
+                        <div><input type='text' id='name' PLACEHOLDER='Write Your name' ></div>
+                        <div style='height:500px; width:600px; margin:0px;float:left'>
+                            <textarea id='comment' ></textarea>
+                            <div id='submit-button' >>>Submit</div>
+                        </div>
+                        <div class='examples'>
+                            <p>Author: Boy756</p>
+                           
+                            This girl on the cover looks nice, the book impressed me with its plot.</div>
+                        <div class='examples'>
+                            <p>Author: Harex</p>
+                           
+                            Damn it! That book is so expensive, couldn't you make a less expensive one?</div>
+                        <div class='examples'>
+                            <p>Author: Robote3</p>
+                           
+                            Shit, it's not worth to read.
+                        </div>
+
+                        <div style="clear: both"></div>
+                    
+                        
+               </section>
+           </article>
+           
+          
+       </main> 
+        
+       <footer>
+           <div id="footer">
+               <div class='socialmedia'><a href='https://www.facebook.com' target="_blank"><i class="icon-facebook"></i></a></div>
+               <div class='socialmedia' id='gplus'><a href='https://plus.google.com' target="_blank"><i class="icon-gplus"></i></a></div>
+               <div class='socialmedia'><a href='https://www.youtube.com' target="_blank"><i class="icon-youtube-play"></i></a></div>
+               <div class='socialmedia'><a href='https://www.twitter.com' target="_blank"><i class="icon-twitter-bird"></i></a></div>
+               <div style='clear: both'></div>
+               <details>
+               <summary id="copy-right">
+                   &copy; All rights reserved</summary>
+                   <p id="copy-right2">The site was created by Jan Kustra &amp; Szymon Kuc.</p></details>
+               
+           </div>
+       </footer>
+        <script src="JS/rate.js"></script>
+        
+        
+    </body>
+</html>

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Book World</title>    
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/fontello.css" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Cabin+Condensed:500&amp;subset=latin-ext" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lato&amp;subset=latin-ext" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Slabo+27px&amp;subset=latin-ext" rel="stylesheet">
+        <link rel="icon" href="img/book.png">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        
+        
+	       <script>
+               function op(obj) {
+                   x=document.getElementById(obj);
+                   if(x.style.display == "block")
+                   {
+                    x.style.display = "none"
+                   }
+                   else 
+                   {
+                       x.style.display = "block"
+                   }
+                    
+                }
+            </script>
+
+    </head>
+    
+    <body onload="zmienslajd()" >
+       
+       <main>
+           <article>
+               <nav>
+                   <ul>
+                       <li><a href='index.html'>Home</a></li>
+                            <li id='main'><a href='categories.html'>Categories</a>
+                                <ul id='categories'>
+                                    <li class="cat"><a id='link1' href='categories.html#cat1'>Science-Fiction</a></li>
+                                    <li class="cat"><a id='link2' href='categories.html#cat2'>Fantasy</a></li>
+                                    <li class="cat"><a id='link3' href='categories.html#cat3'>Thriller</a></li>
+                                    <li class="cat"><a id='link4' href='categories.html#cat4'>Horror</a></li>
+                                    <li class="cat"><a id='link5' href='categories.html#cat5'>Comedy</a></li>
+                                    <li class="cat"><a id='link6' href='categories.html#cat6'>Self-Help</a></li>
+                                    <li class="cat"><a id='link7' href='categories.html#cat7'>Philosophy</a></li>   
+                                </ul>
+                            </li>
+                            <li id='border'></li>
+                            <li id='contact'><a href='contact_us.html'>Contact us</a></li>
+                            <li ><a href='aboutus.html'>About us</a></li>
+                            <li><a href='feedback.html'>Feedback</a></li>            
+                   </ul>
+                   <img src="img/logo3.png" alt="" />
+               </nav>
+           </article>
+           <article>
+               <section>
+                    <div class='info'>
+                <!-- Author + Genre + Best price -->
+                        <div id='author'>Author : &nbsp;Cixin Liu</div>
+                        <div id='cat'>Genre : &nbsp;Science Fiction</div>
+                        <div id='price'>Best price : &nbsp;£6.99<p style='font-size:20px;color:dimgrey;margin-top: 5px;'>Buy at: Waterstones</p></div>
+                   </div>
+                   
+                <!-- Title + Description -->
+                 
+                  <div class='content'><img src="img/Three-Body-Problem.jpg" alt="" style="width: 260px; height: 400px;" /> <h1>Three Body Problem</h1>&nbsp;&nbsp;&nbsp;1967: Ye Wenjie witnesses Red Guards beat her father to death during China's Cultural Revolution. This singular event will shape not only the rest of her life but also the future of mankind.<br><br>
+&nbsp;&nbsp;&nbsp;Four decades later, Beijing police ask nanotech engineer Wang Miao to infiltrate a secretive cabal of scientists after a spate of inexplicable suicides. Wang's investigation will lead him to a mysterious online game and immerse him in a virtual world ruled by the intractable and unpredictable interaction of its three suns.<br><br>
+&nbsp;&nbsp;&nbsp;This is the Three-Body Problem and it is the key to everything: the key to the scientists' deaths, the key to a conspiracy that spans light-years and the key to the extinction-level threat humanity now faces.</div>
+                  <div class='aside'>
+                       <div class='available'><img alt="" src='img/available.png' /></div>
+                      <div id='rate'>Rate:<span style='font-size: 50px;'><br><span class='star' id='star1' onclick="S1()">★</span><span class='star' id='star2'>★</span><span class='star' id='star3'>★</span><span class='star' id='star4'>★</span><span class='star' id='star5'>★</span></span><br><div style="clear: both"></div><span style="font-size:18px;color: gold;">Average: 4,3</span></div>    
+                      
+                <!-- Specs -->
+                      
+                       <div id='spec'> 
+                      <h2>Specifications: </h2>
+                      Publisher: HarperCollins Publishers Inc 
+                      <br><br><br>
+                      ISBN: 9780062457714
+                       <br><br><br>
+                      Number of pages: 416
+                       <br><br><br>
+                      Weight: 308 g 
+                       <br><br><br>
+                      Dimensions: 129 x 198 x 35mm</div>
+                     
+                   </div>
+                 <div style="clear: both"></div>
+                 <div onClick="op('review'); return false;" id='review-button' >>>Reviews</div>
+                 
+                 <!-- Review -->
+                 
+                 <div id='review'>&nbsp;&nbsp;&nbsp;The Three-Body Problem is the first chance for English-speaking readers to experience this multiple award winning phenomenon from China's most beloved science fiction author, Liu Cixin.<br><br>
+
+                &nbsp;&nbsp;&nbsp;"Fans of hard SF will revel in this intricate and imaginative novel by one of China’s most celebrated genre writers. In 1967, physics professor Ye Zhetai is killed after he refuses to denounce the theory of relativity. His daughter, Ye Wenjie, witnesses his gruesome death.
+                <br><br>
+                &nbsp;&nbsp;&nbsp;"Shortly after, she’s falsely charged with sedition for promoting the works of environmentalist Rachel Carson, and told she can avoid punishment by working at a defense research facility involved with the search for extraterrestrial intelligence. More than 40 years later, Ye’s work becomes linked to a string of physicist suicides and a complex role-playing game involving the classic physics problem of the title.
+                <br><br>
+                &nbsp;&nbsp;&nbsp;"Liu impressively succeeds in integrating complex topics—such as the field of frontier science, which attempts to define the limits of science’s ability to know nature—without slowing down the action or sacrificing characterization. His smooth handling of the disparate plot elements cleverly sets up the second volume of the trilogy." —Publishers Weekly </div>
+                 <div id='buy'>
+                     <h1>Buy now</h1>
+                     <a href='https://www.amazon.com/Three-Body-Problem-Cixin-Liu/dp/0765382032/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1531994005&sr=8-1-spons' target="_blank"><div class='depository'><img src="img/amazon-logo.png" alt="" style=" float: left; width: 40%; height: 90%; margin-top:2.5%" /><div class='buy-price'>$10.87</div></div></a>
+                     
+                     <a href='https://www.waterstones.com/book/the-three-body-problem/cixin-liu/ken-liu/9781784971571' target="_blank"><div class='depository'><img src="img/waterstones_logo.png" alt="" style=" float: left; width: 120px; height: 120px;margin-left: 10px;" /><div class='buy-price'>£6.99</div></div></a>
+                         
+                     <a href='https://www.bookdepository.com/Three-Body-Problem-Cixin-Liu/9781784971571?ref=grid-view' target="_blank"><div class='depository'><img src="img/bookdepository-logo.jpg" alt="" style=" float: left; width: 40%; height: 90%; margin-top:2%" /><div class='buy-price'>€9.90&#42;</div></div></a>
+                     
+                     <a href='https://wordery.com/the-three-body-problem-cixin-liu-9781784971571?cTrk=OTQ2OTYwMDV8NWI1MDYwMGJmMjY1MjoxOjM6NWI1MDVkZmMyMWM1YjAuOTI5ODAxNDk6OWI5NGIwM2M%3D' target="_blank"><div class='depository'><img src="img/wordery-logo.jpg" alt="" style=" float: left; width: 50%; height: 100%; " /><div class='buy-price'>€11.68&#42;</div></div></a>
+                        
+                         <div style="clear: both"></div>
+                    <p style='color:dimgray; font-size: 18px;'>&#42; This price contains free delievery</p>
+                 </div>
+               </section>
+               <section>
+                    <div id='comments'>Comments</div>
+                    
+                        <div><input type='text' id='name' value='Write Your name' ></div>
+                        <div style='height:500px; width:600px; margin:0px;float:left'>
+                            <textarea id='comment' ></textarea>
+                            <div id='submit-button' >>>Submit</div>
+                        </div>
+                        <div class='examples'>
+                            <p>Author: John</p>
+                           
+                            VERY NICE BOOK!</div>
+                        <div class='examples'>
+                            <p>Author: Huvax</p>
+                           
+                            Interesting books which has a good plot!</div>
+                        <div class='examples'>
+                            <p>Author: XY41</p>
+                           
+                            Great idea to publish the book like this!
+                        </div>
+
+                        <div style="clear: both"></div>
+                    
+                        
+               </section>
+           </article>
+           
+          
+       </main> 
+        
+       <footer>
+           <div id="footer">
+               <div class='socialmedia'><a href='https://www.facebook.com' target="_blank"><i class="icon-facebook"></i></a></div>
+               <div class='socialmedia' id='gplus'><a href='https://plus.google.com' target="_blank"><i class="icon-gplus"></i></a></div>
+               <div class='socialmedia'><a href='https://www.youtube.com' target="_blank"><i class="icon-youtube-play"></i></a></div>
+               <div class='socialmedia'><a href='https://www.twitter.com' target="_blank"><i class="icon-twitter-bird"></i></a></div>
+               <div style='clear: both'></div>
+               <div id='copy-right'>&copy; All rights reserved</div>
+               
+           </div>
+       </footer>
+        <script src="JS/rate.js"></script>
+        
+    </body>
+</html>

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Book World</title>    
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/fontello.css" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Cabin+Condensed:500&amp;subset=latin-ext" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lato&amp;subset=latin-ext" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Slabo+27px&amp;subset=latin-ext" rel="stylesheet">
+        <link rel="icon" href="img/book.png">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        
+        
+	       <script>
+               function op(obj) {
+                   x=document.getElementById(obj);
+                   if(x.style.display == "block")
+                   {
+                    x.style.display = "none"
+                   }
+                   else 
+                   {
+                       x.style.display = "block"
+                   }
+                    
+                }
+            </script>
+
+    </head>
+    
+    <body onload="zmienslajd()" >
+       
+       <main>
+           <article>
+               <nav>
+                   <ul>
+                       <li><a href='index.html'>Home</a></li>
+                            <li id='main'><a href='categories.html'>Categories</a>
+                                <ul id='categories'>
+                                    <li class="cat"><a id='link1' href='categories.html#cat1'>Science-Fiction</a></li>
+                                    <li class="cat"><a id='link2' href='categories.html#cat2'>Fantasy</a></li>
+                                    <li class="cat"><a id='link3' href='categories.html#cat3'>Thriller</a></li>
+                                    <li class="cat"><a id='link4' href='categories.html#cat4'>Horror</a></li>
+                                    <li class="cat"><a id='link5' href='categories.html#cat5'>Comedy</a></li>
+                                    <li class="cat"><a id='link6' href='categories.html#cat6'>Self-Help</a></li>
+                                    <li class="cat"><a id='link7' href='categories.html#cat7'>Philosophy</a></li>   
+                                </ul>
+                            </li>
+                            <li id='border'></li>
+                            <li id='contact'><a href='contact_us.html'>Contact us</a></li>
+                            <li ><a href='aboutus.html'>About us</a></li>
+                            <li><a href='feedback.html'>Feedback</a></li>            
+                   </ul>
+                   <img src="img/logo3.png" alt="" />
+               </nav>
+           </article>
+           <article>
+               <section>
+                    <div class='info'>
+                <!-- Author + Genre + Best price -->
+                        <div id='author'>Author : &nbsp;Ernest Cline</div>
+                        <div id='cat'>Genre : &nbsp;Science Fiction</div>
+                        <div id='price'>Best price : &nbsp;$8.90<p style='font-size:20px;color:dimgrey;margin-top: 5px;'>Buy at: Amazon</p></div>
+                   </div>
+                   
+                <!-- Title + Description -->
+                 
+                  <div class='content'><img src="img/ready-player-one.jpg" alt="" style="width: 260px; height: 400px;" /> <h1>Ready Player One</h1>&nbsp;&nbsp;&nbsp;***NOW A MAJOR MOTION PICTURE DIRECTED BY STEVEN SPIELBERG***<br><br>
+                    &nbsp;&nbsp;&nbsp;A world at stake. A quest for the ultimate prize. Are you ready?<br><br>
+                    &nbsp;&nbsp;&nbsp;It's the year 2044, and the real world has become an ugly place. We're out of oil. We've wrecked the climate. Famine, poverty, and disease are widespread.
+                    &nbsp;&nbsp;&nbsp;Like most of humanity, Wade Watts escapes this depressing reality by spending his waking hours jacked into the OASIS, a sprawling virtual utopia where you can be anything you want to be, where you can live and play and fall in love on any of ten thousand planets. And like most of humanity, Wade is obsessed by the ultimate lottery ticket that lies concealed within this alternate reality: OASIS founder James Halliday, who dies with no heir, has promised that control of the OASIS - and his massive fortune - will go to the person who can solve the riddles he has left scattered throughout his creation.<br><br>
+                    &nbsp;&nbsp;&nbsp;For years, millions have struggled fruitlessly to attain this prize, knowing only that the riddles are based in the culture of the late twentieth century. And then Wade stumbles onto the key to the first puzzle.<br><br>
+                    &nbsp;&nbsp;&nbsp;A world at stake. A quest for the ultimate prize. Are you ready?<br><br>
+                    &nbsp;&nbsp;&nbsp;Suddenly, he finds himself pitted against thousands of competitors in a desperate race to claim the ultimate prize, a chase that soon takes on terrifying real-world dimensions - and that will leave both Wade and his world profoundly changed.<br><br>
+                    &nbsp;&nbsp;&nbsp;If you loved READY PLAYER ONE and can't wait for more, check out ARMADA, Ernest Cline's latest geek masterpiece!<br><br>
+                    
+                    </div>
+                  <div class='aside'>
+                       <div class='available'><img alt="" src='img/available.png' /></div>
+                      <div id='rate'>Rate:<span style='font-size: 50px;'><br><span class='star' id='star1' onclick="S1()">★</span><span class='star' id='star2'>★</span><span class='star' id='star3'>★</span><span class='star' id='star4'>★</span><span class='star' id='star5'>★</span></span><br><div style="clear: both"></div><span style="font-size:18px;color: gold;">Average: 4,8</span></div>    
+                      
+                <!-- Specs -->
+                      
+                       <div id='spec'> 
+                      <h2>Specifications: </h2>
+                      Publisher: Cornerstone
+                      <br><br><br>
+                      ISBN: 9780099560432
+                       <br><br><br>
+                      Number of pages: 384
+                       <br><br><br>
+                      Weight: 280 g
+                       <br><br><br>
+                      Dimensions: 130 x 196 x 26mm </div>
+                     
+                   </div>
+                 <div style="clear: both"></div>
+                 <div onClick="op('review'); return false;" id='review-button' >>>Reviews</div>
+                 
+                 <!-- Review -->
+                 
+                 <div id='review'>&nbsp;&nbsp;&nbsp;`Wildly original and stuffed with irresistible nostalgia, Ready Player One is a spectacularly genre-busting, ambitious, and charming debut' Independent<br><br>
+
+                &nbsp;&nbsp;&nbsp;`Part intergalactic scavenger hunt, part romance, and all heart' CNN
+                <br><br>
+                &nbsp;&nbsp;&nbsp;`Ernest Cline's novel deserves to be a modern classic' SciFiNow
+                <br><br>
+                &nbsp;&nbsp;&nbsp;`Gorgeously geeky, superbly entertaining, this really is a spectacularly successful debut' Daily Mail</div>
+                 <div id='buy'>
+                     <h1>Buy now</h1>
+                     <a href='https://www.amazon.com/Ready-Player-One-Ernest-Cline/dp/0307887448/ref=sr_1_1?s=books&ie=UTF8&qid=1531994303&sr=1-1&keywords=Ready+Player+One&smid=ATVPDKIKX0DER' target="_blank"><div class='depository'><img src="img/amazon-logo.png" alt="" style=" float: left; width: 40%; height: 90%; margin-top:2.5%" /><div class='buy-price'>$8.90</div></div></a>
+                     
+                    <a href='https://www.waterstones.com/book/ready-player-one/ernest-cline/9780099560432' target="_blank"><div class='depository'><img src="img/waterstones_logo.png" alt="" style=" float: left; width: 120px; height: 120px;margin-left: 10px;" /><div class='buy-price'>£8.99</div></div></a>
+                         
+                    <a href='https://www.bookdepository.com/Ready-Player-One-Ernest-Cline/9781784754792?ref=grid-view&qid=1531994342292&sr=1-2' target="_blank"><div class='depository'><img src="img/bookdepository-logo.jpg" alt="" style=" float: left; width: 40%; height: 90%; margin-top:2%" /><div class='buy-price'>€8.98&#42;</div></div></a>
+                     
+                    <a href='https://wordery.com/ready-player-one-ernest-cline-9780099560432?cTrk=OTQ2OTYzMjl8NWI1MDYwYzRhNGZmMjoxOjE6NWI1MDVkZmMyMWM1YjAuOTI5ODAxNDk6YTAwZGNhMTc%3D' target="_blank"><div class='depository'><img src="img/wordery-logo.jpg" alt="" style=" float: left; width: 50%; height: 100%; " /><div class='buy-price'>€11.46&#42;</div></div></a>
+                        
+                         <div style="clear: both"></div>
+                    <p style='color:dimgray; font-size: 18px;'>&#42; This price contains free delievery</p>
+                 </div>
+               </section>
+               <section>
+                    <div id='comments'>Comments</div>
+                    
+                        <div><input type='text' id='name' value='Write Your name' ></div>
+                        <div style='height:500px; width:600px; margin:0px;float:left'>
+                            <textarea id='comment' ></textarea>
+                            <div id='submit-button' >>>Submit</div>
+                        </div>
+                        <div class='examples'>
+                            <p>Author: John</p>
+                           
+                            VERY NICE BOOK!</div>
+                        <div class='examples'>
+                            <p>Author: Huvax</p>
+                           
+                            Interesting books which has a good plot!</div>
+                        <div class='examples'>
+                            <p>Author: XY41</p>
+                           
+                            Great idea to publish the book like this!
+                        </div>
+
+                        <div style="clear: both"></div>
+                    
+                        
+               </section>
+           </article>
+           
+          
+       </main> 
+        
+       <footer>
+           <div id="footer">
+               <div class='socialmedia'><a href='https://www.facebook.com' target="_blank"><i class="icon-facebook"></i></a></div>
+               <div class='socialmedia' id='gplus'><a href='https://plus.google.com' target="_blank"><i class="icon-gplus"></i></a></div>
+               <div class='socialmedia'><a href='https://www.youtube.com' target="_blank"><i class="icon-youtube-play"></i></a></div>
+               <div class='socialmedia'><a href='https://www.twitter.com' target="_blank"><i class="icon-twitter-bird"></i></a></div>
+               <div style='clear: both'></div>
+               <details>
+               <summary id="copy-right">
+                   &copy; All rights reserved</summary>
+                   <p id="copy-right2">The site was created by Jan Kustra &amp; Szymon Kuc.</p></details>
+               
+           </div>
+       </footer>
+        <script src="JS/rate.js"></script>
+        
+    </body>
+</html>

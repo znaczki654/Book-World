@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Book World</title>    
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/fontello.css" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Cabin+Condensed:500&amp;subset=latin-ext" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lato&amp;subset=latin-ext" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Slabo+27px&amp;subset=latin-ext" rel="stylesheet">
+        <link rel="icon" href="img/book.png">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        
+        
+	       <script>
+               function op(obj) {
+                   x=document.getElementById(obj);
+                   if(x.style.display == "block")
+                   {
+                    x.style.display = "none"
+                   }
+                   else 
+                   {
+                       x.style.display = "block"
+                   }
+                    
+                }
+            </script>
+
+    </head>
+    
+    <body onload="zmienslajd()" >
+       
+       <main>
+           <article>
+               <nav>
+                   <ul>
+                       <li><a href='index.html'>Home</a></li>
+                            <li id='main'><a href='categories.html'>Categories</a>
+                                <ul id='categories'>
+                                    <li class="cat"><a id='link1' href='categories.html#cat1'>Science-Fiction</a></li>
+                                    <li class="cat"><a id='link2' href='categories.html#cat2'>Fantasy</a></li>
+                                    <li class="cat"><a id='link3' href='categories.html#cat3'>Thriller</a></li>
+                                    <li class="cat"><a id='link4' href='categories.html#cat4'>Horror</a></li>
+                                    <li class="cat"><a id='link5' href='categories.html#cat5'>Comedy</a></li>
+                                    <li class="cat"><a id='link6' href='categories.html#cat6'>Self-Help</a></li>
+                                    <li class="cat"><a id='link7' href='categories.html#cat7'>Philosophy</a></li>   
+                                </ul>
+                            </li>
+                            <li id='border'></li>
+                            <li id='contact'><a href='contact_us.html'>Contact us</a></li>
+                            <li ><a href='aboutus.html'>About us</a></li>
+                            <li><a href='feedback.html'>Feedback</a></li>            
+                   </ul>
+                   <img src="img/logo3.png" alt="" />
+               </nav>
+           </article>
+           <article>
+               <section>
+                    <div class='info'>
+                <!-- Author + Genre + Best price -->
+                        <div id='author'>Author : &nbsp;Ernest Cline</div>
+                        <div id='cat'>Genre : &nbsp;Fantasy</div>
+                        <div id='price'>Best price : &nbsp;€7.39&#42;<p style='font-size:20px;color:dimgrey;margin-top: 5px;'>Buy at: Book Depository</p></div>
+                   </div>
+                   
+                <!-- Title + Description -->
+                 
+                  <div class='content'><img src="img/strange-the-dreamer.jpg" alt="" style="width: 260px; height: 400px;" /> <h1>Strange the Dreamer </h1>&nbsp;&nbsp;&nbsp;***NOW A MAJOR MOTION PICTURE DIRECTED BY STEVEN SPIELBERG***<br><br>
+                    &nbsp;&nbsp;&nbsp;The magical Sunday Times bestseller by Laini Taylor, author of the Daughter of Smoke and Bone trilogy<br><br>
+                    &nbsp;&nbsp;&nbsp;The dream chooses the dreamer.<br><br>
+                    &nbsp;&nbsp;&nbsp;Since he was five years old, Lazlo Strange has been obsessed with the mythic lost city of Weep, but it would take someone bolder than he to go in search of it. Then a stunning opportunity presents itself - in the person of a hero called the Godslayer and a band of legendary warriors, and he has to seize his chance or lose his dream forever.<br><br>
+                    &nbsp;&nbsp;&nbsp;What happened in Weep to cut it off from the world? What did the Godslayer slay that went by the name of god? And what is the mysterious problem he now seeks help in solving?<br><br>
+                    &nbsp;&nbsp;&nbsp;The answers await in Weep, but so do many more mysteries - including the blue-skinned goddess who visits Lazlo's dreams . . .<br><br>
+                    &nbsp;&nbsp;&nbsp;The magical sequel, MUSE OF NIGHTMARES, is now available to pre-order!<br><br>
+                    
+                    </div>
+                  <div class='aside'>
+                       <div class='available'><img alt="" src='img/available.png' /></div>
+                      <div id='rate'>Rate:<span style='font-size: 50px;'><br><span class='star' id='star1' onclick="S1()">★</span><span class='star' id='star2'>★</span><span class='star' id='star3'>★</span><span class='star' id='star4'>★</span><span class='star' id='star5'>★</span></span><br><div style="clear: both"></div><span style="font-size:18px;color: gold;">Average: 3,5</span></div>    
+                      
+                <!-- Specs -->
+                      
+                       <div id='spec'> 
+                      <h2>Specifications: </h2>
+                      Publisher: Hodder &amp; Stoughton General Division
+                      <br><br><br>
+                      ISBN: 9781444788952
+                       <br><br><br>
+                      Number of pages: 560
+                       <br><br><br>
+                      Weight: 380 g
+                       <br><br><br>
+                      Dimensions: 128 x 196 x 38mm </div>
+                     
+                   </div>
+                 <div style="clear: both"></div>
+                 <div onClick="op('review'); return false;" id='review-button' >>>Reviews</div>
+                 
+                 <!-- Review -->
+                 
+                 <div id='review'>&nbsp;&nbsp;&nbsp;A recipient of the Michael L. Printz Honor award for excellency in YA literature<br><br>
+
+                &nbsp;&nbsp;&nbsp;'Magical' Grazia
+                <br><br>
+                &nbsp;&nbsp;&nbsp;'A stunning, sensory feast of a novel' Dail Mail
+                <br><br>
+                &nbsp;&nbsp;&nbsp;'Leaves the reader enthralled, enchanted and entirely entranced' New York Journal of Books
+                &nbsp;&nbsp;&nbsp;'Laini Taylor is so damn good and like no other' Leigh Bardugo, #1 New York Times bestselling author of Six of Crows and Crooked Kingdom</div>
+                 <div id='buy'>
+                     <h1>Buy now</h1>
+                     <div class='depository' style='cursor: default;'><img src="img/amazon-logo.png" alt="" style=" float: left; width: 50%; height: 100%; " /><div class='buy-price' style='cursor: default;color: red; font-size: 20px;'>Not available</div></div>
+                     
+                     <a href='https://www.waterstones.com/book/strange-the-dreamer/laini-taylor/9781444788983' target="_blank"><div class='depository'><img src="img/waterstones_logo.png" alt="" style=" float: left; width: 120px; height: 120px;margin-left: 10px;" /><div class='buy-price'>£14.99</div></div></a>
+                         
+                     <a href='https://www.bookdepository.com/Strange-Dreamer-Laini-Taylor/9781444788945?ref=grid-view&qid=1532000901831&sr=1-2' target="_blank"><div class='depository'><img src="img/bookdepository-logo.jpg" alt="" style=" float: left; width: 40%; height: 90%; margin-top:2%" /><div class='buy-price'>€7.39&#42;</div></div></a>
+                     
+                     <a href='https://wordery.com/strange-the-dreamer-laini-taylor-9780316341677?cTrk=OTQ3MDY2NDZ8NWI1MDdhODg4MGVkZDoxOjQ6NWI1MDcyYTk5ZTgwMDMuNjE1NzA5NDk6ODNlNjdmZDM%3D' target="_blank"><div class='depository'><img src="img/wordery-logo.jpg" alt="" style=" float: left; width: 50%; height: 100%; " /><div class='buy-price'>€12.74&#42;</div></div></a>
+                        
+                         <div style="clear: both"></div>
+                    <p style='color:dimgray; font-size: 18px;'>&#42; This price contains free delievery</p>
+                 </div>
+               </section>
+               <section>
+                    <div id='comments'>Comments</div>
+                    
+                        <div><input type='text' id='name' value='Write Your name' ></div>
+                        <div style='height:500px; width:600px; margin:0px;float:left'>
+                            <textarea id='comment' ></textarea>
+                            <div id='submit-button' >>>Submit</div>
+                        </div>
+                        <div class='examples'>
+                            <p>Author: John</p>
+                           
+                            VERY NICE BOOK!</div>
+                        <div class='examples'>
+                            <p>Author: Huvax</p>
+                           
+                            Interesting books which has a good plot!</div>
+                        <div class='examples'>
+                            <p>Author: XY41</p>
+                           
+                            Great idea to publish the book like this!
+                        </div>
+
+                        <div style="clear: both"></div>
+                    
+                        
+               </section>
+           </article>
+           
+          
+       </main> 
+        
+       <footer>
+           <div id="footer">
+               <div class='socialmedia'><a href='https://www.facebook.com' target="_blank"><i class="icon-facebook"></i></a></div>
+               <div class='socialmedia' id='gplus'><a href='https://plus.google.com' target="_blank"><i class="icon-gplus"></i></a></div>
+               <div class='socialmedia'><a href='https://www.youtube.com' target="_blank"><i class="icon-youtube-play"></i></a></div>
+               <div class='socialmedia'><a href='https://www.twitter.com' target="_blank"><i class="icon-twitter-bird"></i></a></div>
+               <div style='clear: both'></div>
+               <details>
+               <summary id="copy-right">
+                   &copy; All rights reserved</summary>
+                   <p id="copy-right2">The site was created by Jan Kustra &amp; Szymon Kuc.</p></details>
+               
+           </div>
+       </footer>
+        <script src="JS/rate.js"></script>
+        
+        
+    </body>
+</html>

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Book World</title>    
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/fontello.css" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Cabin+Condensed:500&amp;subset=latin-ext" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lato&amp;subset=latin-ext" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Slabo+27px&amp;subset=latin-ext" rel="stylesheet">
+        <link rel="icon" href="img/book.png">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        
+        
+	       <script>
+               function op(obj) {
+                   x=document.getElementById(obj);
+                   if(x.style.display == "block")
+                   {
+                    x.style.display = "none"
+                   }
+                   else 
+                   {
+                       x.style.display = "block"
+                   }
+                    
+                }
+            </script>
+
+    </head>
+    
+    <body onload="zmienslajd()" >
+       
+       <main>
+           <article>
+               <nav>
+                   <ul>
+                       <li><a href='index.html'>Home</a></li>
+                            <li id='main'><a href='categories.html'>Categories</a>
+                                <ul id='categories'>
+                                    <li class="cat"><a id='link1' href='categories.html#cat1'>Science-Fiction</a></li>
+                                    <li class="cat"><a id='link2' href='categories.html#cat2'>Fantasy</a></li>
+                                    <li class="cat"><a id='link3' href='categories.html#cat3'>Thriller</a></li>
+                                    <li class="cat"><a id='link4' href='categories.html#cat4'>Horror</a></li>
+                                    <li class="cat"><a id='link5' href='categories.html#cat5'>Comedy</a></li>
+                                    <li class="cat"><a id='link6' href='categories.html#cat6'>Self-Help</a></li>
+                                    <li class="cat"><a id='link7' href='categories.html#cat7'>Philosophy</a></li>   
+                                </ul>
+                            </li>
+                            <li id='border'></li>
+                            <li id='contact'><a href='contact_us.html'>Contact us</a></li>
+                            <li ><a href='aboutus.html'>About us</a></li>
+                            <li><a href='feedback.html'>Feedback</a></li>            
+                   </ul>
+                   <img src="img/logo3.png" alt="" />
+               </nav>
+           </article>
+           <article>
+               <section>
+                    <div class='info'>
+                <!-- Author + Genre + Best price -->
+                        <div id='author'>Author : &nbsp;J. R. R. Tolkien</div>
+                        <div id='cat'>Genre : &nbsp;Fantasy</div>
+                        <div id='price'>Best price : &nbsp;€6,99&#42;<p style='font-size:20px;color:dimgrey;margin-top: 5px;'>Buy at: Book Depository</p></div>
+                   </div>
+                   
+                <!-- Title + Description -->
+                 
+                  <div class='content'><img src="img/hobbit.jpg" alt="" style="width: 260px; height: 400px;" /> <h1>The Hobbit</h1>&nbsp;&nbsp;&nbsp;Whisked away from his comfortable, unambitious life in his hobbit-hole in Bag End by Gandalf the wizard and a company of dwarves, Bilbo Baggins finds himself caught up in a plot to raid the treasure hoard of Smaug the Magnificent, a large and very dangerous dragon.<br><br>
+                   
+                   &nbsp;&nbsp;&nbsp;The classic bestseller behind this year's biggest movie, this definitive paperback edition features nine illustrations and two maps drawn by J.R.R. Tolkien, and a preface by Christopher Tolkien.<br><br>
+
+                    &nbsp;&nbsp;&nbsp;Bilbo Baggins is a hobbit who enjoys a comfortable, unambitious life, rarely travelling further than the pantry of his hobbit-hole in Bag End. But his contentment is disturbed when the wizard, Gandalf, and a company of thirteen dwarves arrive on his doorstep one day to whisk him away on an unexpected journey `there and back again'. They have a plot to raid the treasure hoard of Smaug the Magnificent, a large and very dangerous dragon...<br><br>
+
+                    &nbsp;&nbsp;&nbsp;The prelude to The Lord of the Rings, The Hobbit has sold many millions of copies since its publication in 1937, establishing itself as one of the most beloved and influential books of the twentieth century.
+                    </div>
+                  <div class='aside'>
+                       <div class='available'><img alt="" src='img/available.png' /></div>
+                      <div id='rate'>Rate:<span style='font-size: 50px;'><br><span class='star' id='star1' onclick="S1()">★</span><span class='star' id='star2'>★</span><span class='star' id='star3'>★</span><span class='star' id='star4'>★</span><span class='star' id='star5'>★</span></span><br><div style="clear: both"></div><span style="font-size:18px;color: gold;">Average: 4,7</span></div>    
+                      
+                <!-- Specs -->
+                      
+                       <div id='spec'> 
+                      <h2>Specifications: </h2>
+                      Publisher: HarperCollins Publishers 
+                      <br><br><br>
+                      ISBN: 9780261103344
+                       <br><br><br>
+                      Number of pages: 400
+                       <br><br><br>
+                      Weight: 240 g
+                       <br><br><br>
+                      Dimensions: 198 x 129 x 21 mm </div>
+                     
+                   </div>
+                 <div style="clear: both"></div>
+                 <div onClick="op('review'); return false;" id='review-button' >>>Reviews</div>
+                 
+                 <!-- Review -->
+                 
+                 <div id='review'>&nbsp;&nbsp;&nbsp;This book has got to be one of the greatest books I have ever read. While the Lord of the Rings was targeted at a much older audience, I think that The Hobbit appeals more to younger people because it is less complicated and a whole lot shorter. The Hobbit is based on events that took place before the Lord of the Rings trilogy begins – before the ring was discovered essentially - but it has no less adventure. J.R.R. Tolkein delivers yet again!<br><br>
+
+                &nbsp;&nbsp;&nbsp;In The Hobbit, young Bilbo Baggins casually living in his comfortable little hobbit hole is whisked away by the legendary wizard Gandalf and a group of fearless dwarves to reclaim their stolen treasure. Long ago, back in the day when dwarves inhabited the lonely mountain, they were renowned for their mining skills. They put these to good use in digging out gold from beneath their feet.
+                <br><br>
+                &nbsp;&nbsp;&nbsp;But as their gold treasure pile grew and grew, it caught the attention of the evil dragon Smaug. Dragons of course are known for their love of gold and must have more of it at any cost. Smaug, an especially large and selfish dragon attacked the lonely mountain and drove the dwarves away (unable to get any help from the elves).
+                <br><br>
+                &nbsp;&nbsp;&nbsp;This situation persisted until, one day, thirteen dwarves and Gandalf descended unannounced at Bilbo Baggin's little hobbit hole. There they appealed to Bilbo's innate sense of adventure and managed to convince him to accompany them on their epic journey to reclaim their long lost gold. And hence commenced a journey that promised to change Bilbo's life and reputation forever (only if he returns from it alive of course).
+                &nbsp;&nbsp;&nbsp;The adventure begins as soon as the trolls arrive on the scene, intent on kidnapping dwarves and putting them into their stew. If they can get past these evil creatures, they would still need to cross the enchanted Mirkwood forest with its elephant sized spiders, wicked trees that are really traps, and a myriad of illusions. Only if they can manage to get out alive, they still have to defeat the goblin king and fend off the Wargs (think mutated wolves ridden by Orcs).<br><br>
+                &nbsp;&nbsp;&nbsp;This is an adventure of a lifetime. You will not be disappointed. I would give this book a solid 9/10 because it was just a great read overall. Being at the same level as the Lord of the Rings is no mean feat, but this book manages it with ease!<br><br>
+                
+                </div>
+                 <div id='buy'>
+                     <h1>Buy now</h1>
+                     <a href='https://www.amazon.de/Hobbit-Tolkien-collection-Ronald-Reuel/dp/0261102214/ref=sr_1_11?s=books-intl-de&ie=UTF8&qid=1531907825&sr=1-11&keywords=fantasy+books' target="_blank"><div class='depository'><img src="img/amazon-logo.png" alt="" style=" float: left; width: 40%; height: 90%; margin-top:2.5%" /><div class='buy-price'>€6.99</div></div></a>
+                     
+                     <a href='https://www.waterstones.com/book/the-hobbit/j-r-r-tolkien/9780261103344' target="_blank"><div class='depository'><img src="img/waterstones_logo.png" alt="" style=" float: left; width: 120px; height: 120px;margin-left: 10px;" /><div class='buy-price'>£6.49</div></div></a>
+                         
+                     <a href='https://www.bookdepository.com/Hobbit-J-R-R-Tolkien/9780261102217?ref=grid-view&qid=1531998903396&sr=1-1' target="_blank"><div class='depository'><img src="img/bookdepository-logo.jpg" alt="" style=" float: left; width: 40%; height: 90%; margin-top:2%" /><div class='buy-price'>€6.99&#42;</div></div></a>
+                     
+                     <div class='depository' style='cursor: default;'><img src="img/wordery-logo.jpg" alt="" style=" float: left; width: 50%; height: 100%; " /><div class='buy-price' style='cursor: default;color: red; font-size: 20px;'>Not available</div></div>
+                        
+                         <div style="clear: both"></div>
+                    <p style='color:dimgray; font-size: 18px;'>&#42; This price contains free delievery</p>
+                 </div>
+               </section>
+               <section>
+                    <div id='comments'>Comments</div>
+                    
+                        <div><input type='text' id='name' value='Write Your name' ></div>
+                        <div style='height:500px; width:600px; margin:0px;float:left'>
+                            <textarea id='comment' ></textarea>
+                            <div id='submit-button' >>>Submit</div>
+                        </div>
+                        <div class='examples'>
+                            <p>Author: John</p>
+                           
+                            VERY NICE BOOK!</div>
+                        <div class='examples'>
+                            <p>Author: Huvax</p>
+                           
+                            Interesting books which has a good plot!</div>
+                        <div class='examples'>
+                            <p>Author: XY41</p>
+                           
+                            Great idea to publish the book like this!
+                        </div>
+
+                        <div style="clear: both"></div>
+                    
+                        
+               </section>
+           </article>
+           
+          
+       </main> 
+        
+       <footer>
+           <div id="footer">
+               <div class='socialmedia'><a href='https://www.facebook.com' target="_blank"><i class="icon-facebook"></i></a></div>
+               <div class='socialmedia' id='gplus'><a href='https://plus.google.com' target="_blank"><i class="icon-gplus"></i></a></div>
+               <div class='socialmedia'><a href='https://www.youtube.com' target="_blank"><i class="icon-youtube-play"></i></a></div>
+               <div class='socialmedia'><a href='https://www.twitter.com' target="_blank"><i class="icon-twitter-bird"></i></a></div>
+               <div style='clear: both'></div>
+               <details>
+               <summary id="copy-right">
+                   &copy; All rights reserved</summary>
+                   <p id="copy-right2">The site was created by Jan Kustra &amp; Szymon Kuc.</p></details>
+               
+           </div>
+       </footer>
+        <script src="JS/rate.js"></script>
+        
+    </body>
+</html>

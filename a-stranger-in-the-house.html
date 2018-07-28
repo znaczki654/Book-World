@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Book World</title>    
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/fontello.css" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Cabin+Condensed:500&amp;subset=latin-ext" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lato&amp;subset=latin-ext" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Slabo+27px&amp;subset=latin-ext" rel="stylesheet">
+        <link rel="icon" href="img/book.png">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        
+        <!-- Skrypt pozwalający na działanie przycisku "review" -->
+	       <script>
+               function op(obj) {
+                   x=document.getElementById(obj);
+                   if(x.style.display == "block")
+                   {
+                    x.style.display = "none"
+                   }
+                   else 
+                   {
+                       x.style.display = "block"
+                   }
+                    
+                }
+            </script>
+
+    </head>
+    
+    <body onload="zmienslajd()" >
+       
+       <main>
+           <article>
+               <nav>
+                   <ul>
+                        <li><a href="index.html">Home</a></li>
+                            <li id="main"><a href="categories.html">Categories</a>
+                                <ul id="categories">
+                                    <li class="cat"><a id="link1" href="categories.html#cat1">Science-Fiction</a></li>
+                                    <li class="cat"><a id="link2" href="categories.html#cat2">Fantasy</a></li>
+                                    <li class="cat"><a id="link3" href="categories.html#cat3">Thriller</a></li>
+                                    <li class="cat"><a id="link4" href="categories.html#cat4">Horror</a></li>
+                                    <li class="cat"><a id="link5" href="categories.html#cat5">Comedy</a></li>
+                                    <li class="cat"><a id="link6" href="categories.html#cat6">Self-Help</a></li>
+                                    <li class="cat"><a id="link7" href="categories.html#cat7">Philosophy</a></li>   
+                                </ul>
+                            </li>
+                            <li id="border"></li>
+                            <li id="contact"><a href="contact_us.html">Contact us</a></li>
+                            <li ><a href="aboutus.html">About us</a></li>
+                            <li><a href="feedback.html">Feedback</a></li>          
+                   </ul>
+                   <img src="img/logo3.png" alt="" />
+               </nav>
+           </article>
+           <article>
+               <section>
+                    <div class="info">
+                <!-- Author + Genre + Best price -->
+                        <div id="author">Author : &nbsp;J.K. Rowling</div>
+                        <div id="cat">Genre : &nbsp;Thriller</div>
+                        <div id="price">Best price : &nbsp;£5.99<p style="font-size:20px;color:dimgrey;margin-top: 5px;">Buy at: Waterstones</p></div>
+                   </div>
+                   
+                <!-- Title + Description -->
+                 
+                  <div class="content"><img src="img/5.jpg" alt="" style="width: 260px; height: 400px;" /> <h1>A Stranger in the House</h1>&nbsp;&nbsp;&nbsp;In this neighborhood, danger lies close to home. A domestic thriller packed full of secrets, and a twisty story that never stops—from the bestselling author of The Couple Next Door<br><br>
+                    &nbsp;&nbsp;&nbsp;Karen and Tom Krupp are happy—they’ve got a lovely home in upstate New York, they’re practically newlyweds, and they have no kids to interrupt their comfortable life together. But one day, Tom returns home to find Karen has vanished—her car’s gone and it seems she left in a rush. She even left her purse—complete with phone and ID—behind.<br><br>
+                    &nbsp;&nbsp;&nbsp;There's a knock on the door—the police are there to take Tom to the hospital where his wife has been admitted. She had a car accident, and lost control as she sped through the worst part of town.”<br><br>
+                    &nbsp;&nbsp;&nbsp;The accident has left Karen with a concussion and a few scrapes.  Still, she’s mostly okay—except that she can’t remember what she was doing or where she was when she crashed. The cops think her memory loss is highly convenient, and they suspect she was up to no good.<br><br>
+                    &nbsp;&nbsp;&nbsp;Karen returns home with Tom, determined to heal and move on with her life. Then she realizes something’s been moved. Something’s not quite right. Someone’s been in her house. And the police won't stop asking questions.<br><br>
+                    &nbsp;&nbsp;&nbsp;Because in this house, everyone’s a stranger. Everyone has something they’d rather keep hidden. Something they might even kill to keep quiet.<br><br>
+                    </div>
+                  <div class="aside">
+                       <div class="available"><img alt="" src="img/available.png" /></div>
+                      <div id="rate">Rate:<span style="font-size: 50px;"><br><span class="star" id="star1" onclick="S1()">★</span><span class="star" id="star2">★</span><span class="star" id="star3">★</span><span class="star" id="star4">★</span><span class="star" id="star5">★</span></span><br><div style="clear: both"></div><span style="font-size:18px;color: gold;">Average: 4,5</span></div>  
+                      
+                <!-- Specs -->
+                      
+                       <div id="spec"> 
+                      <h2>Specifications: </h2>
+                      Publisher: Transworld Publishers Ltd 
+                      <br><br><br>
+                      ISBN: 9780552173155
+                       <br><br><br>
+                      Number of pages: 384
+                       <br><br><br>
+                      Weight: 262 g
+                       <br><br><br>
+                      Dimensions: 198 x 127 x 23 mm </div>
+                     
+                   </div>
+                 <div style="clear: both"></div>
+                 <div onClick="op('review'); return false;" id="review-button" >&gt;&gt;Reviews</div>
+                 
+                 <!-- Review -->
+                 
+                 <div id="review">&nbsp;&nbsp;&nbsp;In this neighborhood, danger lies close to home. A domestic thriller packed full of secrets, and a twisty story that never stops—from the bestselling author of The Couple Next Door<br><br>
+
+                &nbsp;&nbsp;&nbsp;He looks at her, concerned. “How do you feel?” She wants to say, Terrified. Instead, she says, with a faint smile, “Glad to be home.”<br><br>
+                &nbsp;&nbsp;&nbsp;Karen and Tom Krupp are happy—they’ve got a lovely home in upstate New York, they’re practically newlyweds, and they have no kids to interrupt their comfortable life together. But one day, Tom returns home to find Karen has vanished—her car’s gone and it seems she left in a rush. She even left her purse—complete with phone and ID—behind.
+
+                <br><br>
+                &nbsp;&nbsp;&nbsp;There's a knock on the door—the police are there to take Tom to the hospital where his wife has been admitted. She had a car accident, and lost control as she sped through the worst part of town.<br><br>
+                &nbsp;&nbsp;&nbsp;The accident has left Karen with a concussion and a few scrapes.  Still, she’s mostly okay—except that she can’t remember what she was doing or where she was when she crashed. The cops think her memory loss is highly convenient, and they suspect she was up to no good.<br><br>
+                &nbsp;&nbsp;&nbsp;Karen returns home with Tom, determined to heal and move on with her life. Then she realizes something’s been moved. Something’s not quite right. Someone’s been in her house. And the police won't stop asking questions.<br><br>
+                &nbsp;&nbsp;&nbsp;Because in this house, everyone’s a stranger. Everyone has something they’d rather keep hidden. Something they might even kill to keep quiet.<br><br>
+                
+                </div>
+                 <div id="buy">
+                     <h1>Buy now</h1>
+                     <a href="https://www.amazon.de/Stranger-House-Novel-Shari-Lapena/dp/0525505113/ref=sr_1_1?s=books-intl-de&ie=UTF8&qid=1532002272&sr=1-1&keywords=A+stranger+in+the+house" target="_blank"><div class="depository"><img src="img/amazon-logo.png" alt="" style=" float: left; width: 40%; height: 90%; margin-top:2.5%" /><div class="buy-price">€6.99</div></div></a>
+                     
+                     <a href="https://www.waterstones.com/book/a-stranger-in-the-house/shari-lapena/9780552173155" target="_blank"><div class="depository"><img src="img/waterstones_logo.png" alt="" style=" float: left; width: 120px; height: 120px;margin-left: 10px;" /><div class="buy-price">£5.99</div></div></a>
+                         
+                     <a href="https://www.bookdepository.com/Stranger-House-Shari-Lapena/9780552174978?ref=grid-view&qid=1532002349628&sr=1-2" target="_blank"><div class="depository"><img src="img/bookdepository-logo.jpg" alt="" style=" float: left; width: 40%; height: 90%; margin-top:2%" /><div class="buy-price">€8.01&#42;</div></div></a>
+                     
+                    <a href="https://wordery.com/a-stranger-in-the-house-shari-lapena-9780552173155?cTrk=OTQ3MDkwNDN8NWI1MDgwMmQ0ZWNlZToxOjI6NWI1MDcyYTk5ZTgwMDMuNjE1NzA5NDk6YWVhYjc4ZmY%3D" target="_blank"><div class="depository"><img src="img/wordery-logo.jpg" alt="" style=" float: left; width: 50%; height: 100%; " /><div class="buy-price">€9.03&#42;</div></div>
+                        
+                     <div style="clear: both"></div>
+                        <p style="color:dimgray; font-size: 18px;">&#42; This price contains free delievery</p></a>
+                 </div>
+               </section>
+               <section>
+                    <div id="comments">Comments</div>
+                    
+                        <div><input type="text" id="name" placeholder="Write your name" ></div>
+                        <div style="height:500px; width:600px; margin:0px;float:left">
+                            <textarea id="comment" ></textarea>
+                            <div id="submit-button" >&gt;&gt;Submit</div>
+                        </div>
+                        <div class="examples">
+                            <p>Author: John</p>
+                           
+                            VERY NICE BOOK!</div>
+                        <div class="examples">
+                            <p>Author: Huvax</p>
+                           
+                            Interesting books which has a good plot!</div>
+                        <div class="examples">
+                            <p>Author: XY41</p>
+                           
+                            Great idea to publish the book like this!
+                        </div>
+
+                        <div style="clear: both"></div>
+                    
+                        
+               </section>
+           </article>
+           
+          
+       </main> 
+        
+       <footer>
+           <div id="footer">
+               <div class="socialmedia"><a href="https://www.facebook.com" target="_blank"><i class="icon-facebook"></i></a></div>
+               <div class="socialmedia" id="gplus"><a href="https://plus.google.com" target="_blank"><i class="icon-gplus"></i></a></div>
+               <div class="socialmedia"><a href="https://www.youtube.com" target="_blank"><i class="icon-youtube-play"></i></a></div>
+               <div class="socialmedia"><a href="https://www.twitter.com" target="_blank"><i class="icon-twitter-bird"></i></a></div>
+               <div style="clear: both"></div>
+               <details>
+               <summary id="copy-right">
+                   &copy; All rights reserved</summary>
+                   <p id="copy-right2">The site was created by Jan Kustra &amp; Szymon Kuc.</p></details>
+               
+           </div>
+       </footer>
+        <script src="JS/rate.js"></script>
+        
+    </body>
+</html>

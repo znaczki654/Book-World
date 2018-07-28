@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Book World</title>    
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/fontello.css" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Cabin+Condensed:500&amp;subset=latin-ext" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lato&amp;subset=latin-ext" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Slabo+27px&amp;subset=latin-ext" rel="stylesheet">
+        <link rel="icon" href="img/book.png">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        
+        
+	       <script>
+               function op(obj) {
+                   x=document.getElementById(obj);
+                   if(x.style.display == "block")
+                   {
+                    x.style.display = "none"
+                   }
+                   else 
+                   {
+                       x.style.display = "block"
+                   }
+                    
+                }
+            </script>
+
+    </head>
+    
+    <body onload="zmienslajd()" >
+       
+       <main>
+           <article>
+               <nav>
+                   <ul>
+                       <li><a href='index.html'>Home</a></li>
+                            <li id='main'><a href='categories.html'>Categories</a>
+                                <ul id='categories'>
+                                    <li class="cat"><a id='link1' href='categories.html#cat1'>Science-Fiction</a></li>
+                                    <li class="cat"><a id='link2' href='categories.html#cat2'>Fantasy</a></li>
+                                    <li class="cat"><a id='link3' href='categories.html#cat3'>Thriller</a></li>
+                                    <li class="cat"><a id='link4' href='categories.html#cat4'>Horror</a></li>
+                                    <li class="cat"><a id='link5' href='categories.html#cat5'>Comedy</a></li>
+                                    <li class="cat"><a id='link6' href='categories.html#cat6'>Self-Help</a></li>
+                                    <li class="cat"><a id='link7' href='categories.html#cat7'>Philosophy</a></li>   
+                                </ul>
+                            </li>
+                            <li id='border'></li>
+                            <li id='contact'><a href='contact_us.html'>Contact us</a></li>
+                            <li ><a href='aboutus.html'>About us</a></li>
+                            <li><a href='feedback.html'>Feedback</a></li>            
+                   </ul>
+                   <img src="img/logo3.png" alt="" />
+               </nav>
+           </article>
+           <article>
+               <section>
+                    <div class='info'>
+                <!-- Author + Genre + Best price -->
+                        <div id='author'>Author : &nbsp;George Orwell</div>
+                        <div id='cat'>Genre : &nbsp;Science Fiction</div>
+                        <div id='price'>Best price : &nbsp;€6.99&#42;<p style='font-size:20px;color:dimgrey;margin-top: 5px;'>Buy at: Book Depository</p></div>
+                   </div>
+                   
+                <!-- Title + Description -->
+                 
+                  <div class='content'><img src="img/Nineteen-eighty-four.jpg" alt="" style="width: 260px; height: 400px;" /> <h1>Nineteen Eighty-Four</h1>&nbsp;&nbsp;&nbsp;Renowned urban artist Shepard Fairey's new look for Orwell's classic dystopian tale<br><br>
+                    &nbsp;&nbsp;&nbsp;One of Britain's most popular novels, George Orwell's Nineteen Eighty-Four is set in a society terrorised by a totalitarian ideology propagated by The Party.<br><br>
+                    &nbsp;&nbsp;&nbsp;Winston Smith works for the Ministry of Truth in London, chief city of Airstrip One. Big Brother stares out from every poster, the Thought Police uncover every act of betrayal. When Winston finds love with Julia, he discovers that life does not have to be dull and deadening, and awakens to new possibilities. Despite the police helicopters that hover and circle overhead, Winston and Julia begin to question the Party; they are drawn towards conspiracy. Yet Big Brother will not tolerate dissent - even in the mind. For those with original thoughts they invented Room 101. . .
+                    &nbsp;&nbsp;&nbsp;Nineteen Eighty-Four is George Orwell's terrifying vision of a totalitarian future in which everything and everyone is slave to a tyrannical regime. The novel also coined many new words and phrases which regular appear in popular culture, such as 'Big Brother', 'thoughtcrime', 'doublethink' and 'Newspeak'.<br><br>                
+                    </div>
+                  <div class='aside'>
+                       <div class='available'><img alt='' src='img/available.png' /></div>
+                      <div id='rate'>Rate:<span style='font-size: 50px;'><br><span class='star' id='star1' onclick="S1()">★</span><span class='star' id='star2'>★</span><span class='star' id='star3'>★</span><span class='star' id='star4'>★</span><span class='star' id='star5'>★</span></span><br><div style="clear: both"></div><span style="font-size:18px;color: gold;">Average: 4,5</span></div>  
+                      
+                <!-- Specs -->
+                      
+                       <div id='spec'> 
+                      <h2>Specifications: </h2>
+                      Publisher: Penguin Books Ltd
+                      <br><br><br>
+                      ISBN: 9780141036144
+                       <br><br><br>
+                      Number of pages: 336
+                       <br><br><br>
+                      Weight: 180 g
+                       <br><br><br>
+                      Dimensions: 110 x 178 x 30mm </div>
+                     
+                   </div>
+                 <div style="clear: both"></div>
+                 <div onClick="op('review'); return false;" id='review-button' >>>Reviews</div>
+                 
+                 <!-- Review -->
+                 
+                 <div id='review'>&nbsp;&nbsp;&nbsp;Though all “thinking people,” as they are still sometimes called, must by now have more than a vague idea of the dangers which mankind runs from modern techniques, George Orwell, like Aldous Huxley, feels that the more precise we are in our apprehensions the better. Huxley’s “Ape and Essence” was in the main a warning of the biological evils the split atom may have in store for us; Orwell’s Nineteen Eighty-Four speaks of the psychological breaking-in process to which an up-to-date dictatorship can subject non-cooperators.<br><br>
+
+                &nbsp;&nbsp;&nbsp;The story is brilliantly constructed and told. Winston Smith, of the Party (but not the Inner Party) kicks against the pricks, with what results we shall leave readers to find out for themselves. It has become a dreadful occasion of anguish to-day conjecturing how much torture even a saint can put up with if the end is certainly not to be a spectacular martyrdom - but “vaporisation.” The less you are familiar with the idea of the agent provocateur as an instrument of oppression and rule the more you will shudder at the wiles used by the Ministry of Love in Mr. Orwell’s London of 1984, “chief city of Airstrip One, Oceana.” An example of the way things are managed: Emmanuel Goldstein, the proscribed Opposition leader, is a fiction artfully sustained by the authorities to lure deviationists into giving themselves away.
+                <br><br>
+                     &nbsp;&nbsp;&nbsp;It is an instructive book; there is a good deal of What Every Young Person Ought to Know - not in 1984, but 1949. Mr Orwell’s analysis of the lust for power is one of the less satisfactory contributions to our enlightenment, and he also leaves us in doubt as to how much he means by poor Smith’s “faith” in the people (or “proles”). Smith is rather let down by the 1984 Common Man, and yet there is some insinuation that common humanity remains to be extinguished.</div>
+                 <div id='buy'>
+                     <h1>Buy now</h1>
+                     <a href='https://www.amazon.com/Nineteen-Eighty-Four-Centennial-George-2003-05-06/dp/B017YCA51K/ref=sr_1_2?s=books&ie=UTF8&qid=1531994760&sr=1-2&keywords=Nineteen+Eighty-four' target="_blank"><div class='depository'><img src="img/amazon-logo.png" alt="" style=" float: left; width: 40%; height: 90%; margin-top:2.5%" /><div class='buy-price'>$13,19</div></div></a>
+                     
+                         <a href='https://www.waterstones.com/book/nineteen-eighty-four/george-orwell/thomas-pynchon/9780141187761' target="_blank"><div class='depository'><img src="img/waterstones_logo.png" alt="" style=" float: left; width: 120px; height: 120px;margin-left: 10px;" /><div class='buy-price'>£6.99</div></div></a>
+                         
+                             <a href='https://www.bookdepository.com/Nineteen-Eighty-four-George-Orwell/9780141036144?ref=grid-view' target="_blank"><div class='depository'><img src="img/bookdepository-logo.jpg" alt="" style=" float: left; width: 40%; height: 90%; margin-top:2%" /><div class='buy-price'>€6.99&#42;</div></div></a>
+                     
+                         <a href='https://wordery.com/nineteen-eighty-four-george-orwell-9780141036144?cTrk=OTQ2OTcxOTB8NWI1MDYyOTFkMDM4MjoxOjE6NWI1MDVkZmMyMWM1YjAuOTI5ODAxNDk6ZTdhOTk0MTU%3D' target="_blank"><div class='depository'><img src="img/wordery-logo.jpg" alt="" style=" float: left; width: 50%; height: 100%; " /><div class='buy-price'>€9.39&#42;</div></div></a>
+                        
+                         <div style="clear: both"></div>
+                    <p style='color:dimgray; font-size: 18px;'>&#42; This price contains free delievery</p>
+                 </div>
+                </section>
+               <section>
+                    <div id='comments'>Comments</div>
+                    
+                        <div><input type='text' id='name' value='Write Your name' ></div>
+                        <div style='height:500px; width:600px; margin:0px;float:left'>
+                            <textarea id='comment' ></textarea>
+                            <div id='submit-button' >>>Submit</div>
+                        </div>
+                        <div class='examples'>
+                            <p>Author: John</p>
+                           
+                            VERY NICE BOOK!</div>
+                        <div class='examples'>
+                            <p>Author: Huvax</p>
+                           
+                            Interesting books which has a good plot!</div>
+                        <div class='examples'>
+                            <p>Author: XY41</p>
+                           
+                            Great idea to publish the book like this!
+                        </div>
+
+                        <div style="clear: both"></div>
+                    
+                        
+               </section>
+           </article>
+           
+          
+       </main> 
+        
+       <footer>
+           <div id="footer">
+               <div class='socialmedia'><a href='https://www.facebook.com' target="_blank"><i class="icon-facebook"></i></a></div>
+               <div class='socialmedia' id='gplus'><a href='https://plus.google.com' target="_blank"><i class="icon-gplus"></i></a></div>
+               <div class='socialmedia'><a href='https://www.youtube.com' target="_blank"><i class="icon-youtube-play"></i></a></div>
+               <div class='socialmedia'><a href='https://www.twitter.com' target="_blank"><i class="icon-twitter-bird"></i></a></div>
+               <div style='clear: both'></div>
+               <details>
+               <summary id="copy-right">
+                   &copy; All rights reserved</summary>
+                   <p id="copy-right2">The site was created by Jan Kustra &amp; Szymon Kuc.</p></details>
+               
+           </div>
+       </footer>
+        <script src="JS/rate.js"></script>
+        
+    </body>
+</html>

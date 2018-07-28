@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Book World</title>    
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/fontello.css" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Cabin+Condensed:500&amp;subset=latin-ext" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lato&amp;subset=latin-ext" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Slabo+27px&amp;subset=latin-ext" rel="stylesheet">
+        <link rel="icon" href="img/book.png">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        
+        
+	       <script>
+               function op(obj) {
+                   x=document.getElementById(obj);
+                   if(x.style.display == "block")
+                   {
+                    x.style.display = "none"
+                   }
+                   else 
+                   {
+                       x.style.display = "block"
+                   }
+                    
+                }
+            </script>
+
+    </head>
+    
+    <body onload="zmienslajd()" >
+       
+       <main>
+           <article>
+               <nav>
+                   <ul>
+                       <li><a href='index.html'>Home</a></li>
+                            <li id='main'><a href='categories.html'>Categories</a>
+                                <ul id='categories'>
+                                    <li class="cat"><a id='link1' href='categories.html#cat1'>Science-Fiction</a></li>
+                                    <li class="cat"><a id='link2' href='categories.html#cat2'>Fantasy</a></li>
+                                    <li class="cat"><a id='link3' href='categories.html#cat3'>Thriller</a></li>
+                                    <li class="cat"><a id='link4' href='categories.html#cat4'>Horror</a></li>
+                                    <li class="cat"><a id='link5' href='categories.html#cat5'>Comedy</a></li>
+                                    <li class="cat"><a id='link6' href='categories.html#cat6'>Self-Help</a></li>
+                                    <li class="cat"><a id='link7' href='categories.html#cat7'>Philosophy</a></li>   
+                                </ul>
+                            </li>
+                            <li id='border'></li>
+                            <li id='contact'><a href='contact_us.html'>Contact us</a></li>
+                            <li ><a href='aboutus.html'>About us</a></li>
+                            <li><a href='feedback.html'>Feedback</a></li>            
+                   </ul>
+                   <img src="img/logo3.png" alt="" />
+               </nav>
+           </article>
+           <article>
+               <section>
+                    <div class='info'>
+                <!-- Author + Genre + Best price -->
+                        <div id='author'>Author : &nbsp;Joseph Campbell</div>
+                        <div id='cat'>Genre : &nbsp;Self-help</div>
+                        <div id='price'>Best price : &nbsp;€15,30<p style='font-size:20px;color:dimgrey;margin-top: 5px;'>Buy at: Amazon</p></div>
+                   </div>
+                   
+                <!-- Title + Description -->
+                 
+                  <div class='content'><img src="img/the-power-of-myth.jpg" alt="" style="width: 260px; height: 400px;" /> <h1>The Power of Myth</h1>&nbsp;&nbsp;&nbsp;The national bestseller, now available in a non-illustrated, standard format paperback edition
+                    <br><br>
+                  &nbsp;&nbsp;&nbsp;The Power of Myth launched an extraordinary resurgence of interest in Joseph Campbell and his work. A preeminent scholar, writer, and teacher, he has had a profound influence on millions of people--including Star Wars creator George Lucas. To Campbell, mythology was the “song of the universe, the music of the spheres.” With Bill Moyers, one of America’s most prominent journalists, as his thoughtful and engaging interviewer, The Power of Myth touches on subjects from modern marriage to virgin births, from Jesus to John Lennon, offering a brilliant combination of intelligence and wit. 
+                      <br><br>
+                  &nbsp;&nbsp;&nbsp;This extraordinary book reveals how the themes and symbols of ancient narratives continue to bring meaning to birth, death, love, and war. From stories of the gods and goddesses of ancient Greece and Rome to traditions of Buddhism, Hinduism and Christianity, a broad array of themes are considered that together identify the universality of human experience across time and culture. An impeccable match of interviewer and subject, a timeless distillation of Campbell’s work, The Power of Myth continues to exert a profound influence on our culture.  
+
+                    </div>
+                  <div class='aside'>
+                       <div class='available'><img alt="" src='img/available.png' /></div>
+                      <div id='rate'>Rate:<span style='font-size: 50px;'><br><span class='star' id='star1' onclick="S1()">★</span><span class='star' id='star2'>★</span><span class='star' id='star3'>★</span><span class='star' id='star4'>★</span><span class='star' id='star5'>★</span></span><br><div style="clear: both"></div><span style="font-size:18px;color: gold;">Average: 4,4</span></div>    
+                      
+                <!-- Specs -->
+                      
+                       <div id='spec'> 
+                      <h2>Specifications: </h2>
+                      Publisher: Bloomsbury Publishing PLC
+                      <br><br><br>
+                      ISBN: 9781408855652
+                       <br><br><br>
+                      Number of pages: 352
+                       <br><br><br>
+                      Weight: 280 g
+                       <br><br><br>
+                      Dimensions: 128 x 196 x 26mm </div>
+                     
+                   </div>
+                 <div style="clear: both"></div>
+                 <div onClick="op('review'); return false;" id='review-button' >>>Reviews</div>
+                 
+                 <!-- Review -->
+                 
+                 <div id='review'>&nbsp;&nbsp;&nbsp;I really do think that this should be required reading in high school, everywhere. Or beyond. Just in general. I read it in preperation for my AP year, and it really helps you to open your eyes quite a bit. Does Joe Campbell like to stretch his points? Yes. Are some of his ideas and allusions a little far fetched? Absolutely. Will you roll your eyes a few times? Of course! Unless you are more starry eyed than even I was.
+                     <br><br>
+                 &nbsp;&nbsp;&nbsp;However. What he says on the subject of myth and our current culture is so true, and so insightful, that I think that everyone should pause to think about it. The changes in our cultural upbringing are so profound and Joe Campbell really helps to explain how and why that happened and what that does to your psyche, and spirit. Just as a brief example: What /do/ we do without that moment that tells us that we're an adult now, and it is time to take on the behavior of that part of our tale? We have our current generation of 30 somethings that still dress like teenagers, go to rock concerts, and still think that having 'commitment issues' is cool. Why do people spend so much time trying to 'find themselves' now? Partially due to the lack of a cohensive culture and unit that people can base off of. I would argue that his observations on the loss of myth and it's effects on a society are quite valid. The book is an interview, and his voice is so compelling. It's not hard to get behind a lot of his opinions. You want to. It's not necessarily a wholly bad or a wholly good thing, but it says so much about our culture. I guarantee you that this book will present you with several thoughts you might not have had, or thought in depth about before. Really, I think everyone should read this at least once.</div>
+                 <div id='buy'>
+                     <h1>Buy now</h1>
+                     <a href='#' target="_blank"><div class='depository'><img src="img/amazon-logo.png" alt="" style=" float: left; width: 40%; height: 90%; margin-top:2.5%" /><div class='buy-price'>$18,99</div></div></a>
+                     
+                     <a href='#' target="_blank"><div class='depository'><img src="img/waterstones_logo.png" alt="" style=" float: left; width: 120px; height: 120px;margin-left: 10px;" /><div class='buy-price'>£14.99</div></div></a>
+                         
+                     <a href='#' target="_blank"><div class='depository'><img src="img/bookdepository-logo.jpg" alt="" style=" float: left; width: 40%; height: 90%; margin-top:2%" /><div class='buy-price'>€8,19&#42;</div></div></a>
+                     
+                     <a href='#' target="_blank"><div class='depository'><img src="img/wordery-logo.jpg" alt="" style=" float: left; width: 50%; height: 100%; " /><div class='buy-price'>€22.59&#42;</div></div></a>
+                        
+                         <div style="clear: both"></div>
+                    <p style='color:dimgray; font-size: 18px;'>&#42; This price contains free delievery</p>
+                 </div>
+               </section>
+               <section>
+                    <div id='comments'>Comments</div>
+                    
+                        <div><input type='text' id='name' value='Write Your name' ></div>
+                        <div style='height:500px; width:600px; margin:0px;float:left'>
+                            <textarea id='comment' ></textarea>
+                            <div id='submit-button' >>>Submit</div>
+                        </div>
+                        <div class='examples'>
+                            <p>Author: John</p>
+                           
+                            VERY NICE BOOK!</div>
+                        <div class='examples'>
+                            <p>Author: Huvax</p>
+                           
+                            Interesting books which has a good plot!</div>
+                        <div class='examples'>
+                            <p>Author: XY41</p>
+                           
+                            Great idea to publish the book like this!
+                        </div>
+
+                        <div style="clear: both"></div>
+                    
+                        
+               </section>
+           </article>
+           
+          
+       </main> 
+        
+       <footer>
+           <div id="footer">
+               <div class='socialmedia'><a href='https://www.facebook.com' target="_blank"><i class="icon-facebook"></i></a></div>
+               <div class='socialmedia' id='gplus'><a href='https://plus.google.com' target="_blank"><i class="icon-gplus"></i></a></div>
+               <div class='socialmedia'><a href='https://www.youtube.com' target="_blank"><i class="icon-youtube-play"></i></a></div>
+               <div class='socialmedia'><a href='https://www.twitter.com' target="_blank"><i class="icon-twitter-bird"></i></a></div>
+               <div style='clear: both'></div>
+               <details>
+               <summary id="copy-right">
+                   &copy; All rights reserved</summary>
+                   <p id="copy-right2">The site was created by Jan Kustra &amp; Szymon Kuc.</p></details>
+               
+           </div>
+       </footer>
+        <script src="JS/rate.js"></script>
+        
+    </body>
+</html>

@@ -1,0 +1,743 @@
+body
+{
+    background-color: #18181e;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Cabin Condensed', sans-serif;
+}
+nav
+{
+    text-decoration: none;
+    background-color: #1a8ecc;
+    height: 80px;
+    width: 100%; 
+    position: fixed;
+    top: 30px;
+    z-index: 100;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+}
+a:hover
+{
+     color: #18181e;
+     cursor: pointer;
+}
+nav > img
+{
+    position: absolute;
+    left: 39.524%;
+    top: 15px;
+    
+}
+ul
+{
+    margin-top: 0px;
+}
+
+ul > li
+{
+    margin-top: 21.5px;
+    display: inline-block;
+    font-size: 32px;
+    margin-left: 15px;
+    padding-left: 15px;
+    border-left: dotted 2px #18181e;
+}
+ul > li:first-child
+{
+    margin-left: 20px;
+     border-right: dotted 2px #18181e;
+    padding-right: 20px;
+}
+ul >li:last-child
+{
+    border-right: dotted 2px #18181e;
+    padding-right: 10px;
+}
+
+#contact
+{
+    margin-left: 57.5%
+}
+#main
+{
+    margin-bottom: 30px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-left: none;
+    margin-left: 0px;
+    height: 60px;
+    
+}
+#main:hover
+{
+    color: #18181e;
+     cursor: pointer;
+}
+#border
+{
+   border-left: dotted 2px #18181e;
+   height: 39px;
+    margin-left: 0px;
+    position: fixed;
+ 
+}
+#main:hover > ul
+{
+    display: block;
+    
+}
+#categories
+{
+    
+    color: white;
+    height: 60px;
+    width: 1100px;
+    background-color:#177eb5;
+    opacity: 0.8;
+    margin-left: -16px;
+    position:absolute;
+    margin-top: 19px;
+    text-align: center;
+    padding: 0px;
+    display: none;
+}
+#categories:hover
+{
+    display: block;
+}
+.cat
+{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 26px;
+    
+}
+.cat:first-child
+{
+  border: none;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+.cat:last-child
+{
+    border-right: none;
+}
+
+#slider
+{
+    margin: 0 auto;
+    height: 600px;
+    width: 100%;
+    margin-top: 160px;
+    color: white;
+    font-size: 18px;
+    z-index: 10;
+}
+#slides
+{
+    margin-left: 48.1558%;
+    color: white;
+    font-size: 32px;
+}
+
+#quotes
+{
+    margin-top: 30px;
+    font-size: 22px;
+    margin-left: 10px;
+    text-align: center;
+}
+.dot
+{
+    color: white;
+}
+.dot:hover
+{
+    color: #1a8ecc;
+}
+#header
+{
+   text-align: center;
+   font-size: 30px; 
+   letter-spacing: 4px;
+   border-top: solid 3px #1a8ecc;
+   margin-left: 100px;
+   margin-right: 100px;
+   margin-top: 40px;
+}
+#header > h2
+{
+    margin-bottom: 40px;
+}
+.window
+{
+    font-family: 'Lato', sans-serif;
+    width: 65%;
+    height: 450px;
+    background-color: #bababa;
+    margin: 0 auto;
+    margin-bottom: 50px;   
+}
+.window:hover
+{
+    transform: scale(1.03);
+    cursor: pointer;
+}
+.image
+{
+    float: left;
+    height: 400px;
+    width: 20%;
+    margin-left: 20px; 
+    margin-top: 25px;
+    margin-right: 50px; 
+}
+.Title
+{
+    padding-top:15px;
+    color: black;  
+    text-align: center;
+    margin: 0px;
+    font-size: 32px;
+}
+.break
+{
+   font-size: 30px; 
+   text-align: center;
+   letter-spacing: 6px;
+   border-top: solid 3px #1a8ecc;
+   margin-left: 100px;
+   margin-right: 100px;
+   margin-top: 74px;
+   margin-bottom: 40px;
+}
+.text
+{
+    color: black;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 24px;
+    margin-top:40px;
+}
+#footer
+{
+   border-top: solid 3px #1a8ecc;
+   width: 90%;
+   margin: 0 auto;
+    
+}
+.socialmedia
+{
+   float: left;
+   margin-left: 190px;
+   margin-top: 30px;
+   height: 320px;
+   width: 240px;
+   padding-top:30px;
+   
+}
+.socialmedia:first-child
+{
+   
+    margin-left: 0px;
+}
+.socialmedia > a:hover
+{
+     color: white;
+}
+.socialmedia:hover
+{
+   
+    transform: scale(1.03);
+    cursor: pointer;
+}
+.socialmedia > i:before
+{
+    padding-top: 20px;
+    margin: 0 auto;
+    
+}
+#copy-right
+{
+    font-size: 28px;
+    letter-spacing: 5px;
+    text-align: center;
+}
+    #copy-right2
+{
+    font-size: 18px;
+    letter-spacing: 3px;
+    text-align: center;
+}
+#gplus
+{
+    margin-left: 160px;
+}
+#title-rev
+{
+    margin-top: 150px;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+    
+}
+#text-rev
+{
+    font-size: 26px;
+    text-align: left;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 40px;
+}
+.cat-title
+{
+    text-align: center;
+    font-size: 42px;
+    letter-spacing: 6px;
+    color: white;
+}
+.coming-soon
+{
+    text-align: center;
+    font-size: 28px;
+    letter-spacing: 16px;
+    color: white;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+.break-cat
+{
+
+   border-top: solid 3px #1a8ecc;
+   margin-left: 100px;
+   margin-right: 100px;
+   margin-top: 80px;
+   margin-bottom: 40px;
+}
+#first-break
+{
+    margin-top: 180px;
+}
+.book
+{
+    
+    float: left;
+    margin-left: 80px;
+    width:260px;
+    height: 400px;
+    margin-bottom: 20px;
+}
+.book:hover
+{
+    transform: scale(1.02);
+    cursor: pointer;
+}
+.first
+{
+    margin-left: 311.5px;
+}
+
+#first-des
+{
+    margin-left: 311.5px;
+}
+.info
+{
+    font-family: 'Cabin Condensed', sans-serif;
+    width: 90%;
+    height: 140px;
+    border-top: solid 3px #1a8ecc;
+    border-bottom: solid 3px #1a8ecc;
+    margin: 0 auto;
+    margin-top: 180px;
+}
+#author
+{
+    float: left;
+    margin-left: 2.5%;
+    font-size: 32px;
+    text-align: left;
+     line-height: 140px;
+    
+}
+#cat
+{
+    float: left;
+    font-size: 32px;
+    text-align: center;
+    line-height: 140px;
+    margin-left: 25%;
+    
+}
+#price
+{
+    float: left;
+    font-size: 32px;
+    text-align: right;
+    margin-top: 50px;
+    margin-left: 25%;
+    
+}
+.image-content
+{
+    float: left;
+    position: relative;
+    height: 400px;
+    width: 260px;
+    margin-left: 5%; 
+    margin-top: 25px;
+  
+}
+.content
+{
+   
+    float: left;
+    font-family: 'Slabo 27px', serif;
+    text-align: justify;
+    width: 70%;
+    color: white;
+    margin-left: 5%;
+    margin-right: 50px;
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    
+}
+.content img 
+{
+    float: left;
+    padding-right: 20px;
+ 
+}
+.content h1
+{
+    font-size: 32px;
+    letter-spacing: 6px;
+    text-align: center;
+}
+#review-button
+{
+    
+    font-size: 32px;
+    color: white;
+    width: 100px;
+    margin-left: 1350px;
+    margin-bottom: 50px;
+}
+#review-button:hover
+{
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+#review
+{
+    display: none;
+    font-family: 'Slabo 27px', serif;
+    text-align: justify;
+    width: 70%;
+    color: white;
+    margin-left: 5%;
+    margin-right: 50px;
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+
+    
+}
+.aside
+{
+    font-family: 'Cabin Condensed', sans-serif;
+    font-size: 22px;
+    text-align: left;
+    margin-top: 30px;
+    padding-top: 0px;
+    padding-left: 20px;
+    margin-bottom: 50px;
+    float: left;
+    border-left: dashed 3px #1a8ecc;
+    height: 600px;
+    width: 20%;
+}
+#rate
+{
+ font-size:40px;
+ margin-bottom: 40px;
+}
+.star
+{
+    float: left;
+}
+.star:hover
+{
+    color: gold;
+    cursor: pointer;
+}
+
+#buy
+{
+    font-size: 20px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    border-top: dashed 3px #1a8ecc;
+    width: 90%;
+    padding-bottom: 60px;
+    border-bottom: dashed 3px #1a8ecc;
+}
+
+#buy h1
+{
+    text-align: center;
+    font-size: 32px;
+}
+.depository
+{
+    float:left;
+    margin-left: 40px;
+    width: 350px;
+    height: 120px;
+    background-color: white;
+    color: black; 
+}
+.depository:hover
+{
+    transform: scale(1.02);
+    cursor: pointer;
+}
+.depository:first-of-type
+{
+    margin-left: 60px;
+}
+.buy-price
+{
+    font-size: 40px;
+    float: left;
+    line-height: 120px;
+    margin-left:50px;
+}
+#comments
+{
+    font-size: 52px;
+    text-align: center;
+    letter-spacing: 6px;  
+}
+
+#layout
+{
+    margin-left: 40%;
+}
+#name
+{
+    margin-top:130px;
+    font-size:22px;
+    width: 400px;
+    margin-bottom: 30px;
+    opacity: 0.9;
+     margin-left: 100px;
+}
+
+#comment
+{
+ 
+    float: left;
+    font-size:22px;
+    width: 600px;
+    height: 250px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+     opacity: 0.9;
+}
+
+.examples
+{
+    margin-left: 200px;
+    float: left;
+    width:800px;
+    height: 100px;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    color: black;
+    text-align: left;
+    font-size: 28px;
+    padding-left: 20px;
+    opacity: 0.9;
+}
+
+.examples p
+{
+    font-size: 18px;
+}
+#submit-button
+{
+  
+    font-size: 32px;
+    color: white;
+    width: 100px;
+    margin-left: 500px;
+    margin-right: 0px;
+    margin-bottom: 50px;
+}
+#submit-button:hover
+{
+    transform: scale(1.02);
+    cursor: pointer;
+}
+.content2
+{
+    float: left;
+    font-family: 'Lato', sans-serif;
+    text-align: justify;
+    width: 65%;
+    height: 500px;
+    color: white;
+    margin-left: 5%;
+    margin-right: 50px;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    
+}
+#bookpng
+{
+    margin-top: 150px;
+    margin-left: 50px;
+}
+#contact-us
+{
+    float: left;
+    margin-top: 130px;
+    width: 600px;
+    margin-left:225px;
+    height: 600px;
+    margin-bottom: 65px;
+   
+}
+#title
+{
+    font-family: 'Cabin Condensed', sans-serif;   
+    border-bottom: solid 3px #1a8ecc;
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 40px;
+    color: white;
+    font-size: 38px;
+    letter-spacing: 8px;
+    margin-top:180px;
+}
+.contact-text
+{
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 34px;
+    margin-top:40px;
+}
+.contact-text:hover
+{
+    transform: scale(1.04);
+    cursor: pointer;
+}
+.contact-text2
+{
+    font-family: 'Lato', sans-serif;
+    color: white;
+    text-align: left;
+    font-size: 20px;
+    margin-top:40px;
+}
+#contact-form
+{
+    float: left;
+    margin-top: 40px;
+    width: 720px;
+    margin-left:150px;
+    height: 600px;
+    margin-bottom: 65px;
+}
+#comment-us
+{
+    font-size:22px;
+    width: 600px;
+    height: 250px;
+    margin-bottom: 80px;
+    opacity: 0.9;
+}
+#map
+{
+    width: 100%;
+    height: 1200px;
+    
+}
+#map-button
+{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    margin-top: 15px;
+    font-size: 24px;
+}
+#map-button:hover
+{
+    transform: scale(1.04);
+    cursor: pointer;
+}
+#title-feedback
+{
+    font-family: 'Cabin Condensed', sans-serif;   
+    border-bottom: solid 3px #1a8ecc;
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 40px;
+    color: white;
+    font-size: 38px;
+    letter-spacing: 8px;
+    margin-top:180px;
+}
+#feedback
+{
+    width: 1200px;
+    height: 800px;
+  
+    margin: 0 auto;
+}
+#text-feedback
+{
+    margin-left: 200px;
+    margin-top: 40px;
+    font-size:22px;
+    width: 800px;
+    height: 400px;
+    opacity: 0.9;
+    
+}
+#name-feedback
+{   margin-top: 40px;
+    margin-left: 400px;
+    font-size:22px;
+    width: 400px;
+    opacity: 0.9;
+}
+#upload
+{
+    width: 400px;
+    height: 170px;
+    margin-left: 660px;  
+}
+#upload:hover
+{
+     transform: scale(1.04);
+     cursor: pointer;
+}

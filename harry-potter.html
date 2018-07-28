@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Book World</title>    
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/fontello.css" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Cabin+Condensed:500&amp;subset=latin-ext" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lato&amp;subset=latin-ext" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Slabo+27px&amp;subset=latin-ext" rel="stylesheet">
+        <link rel="icon" href="img/book.png">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        
+        
+	       <script>
+               function op(obj) {
+                   x=document.getElementById(obj);
+                   if(x.style.display == "block")
+                   {
+                    x.style.display = "none"
+                   }
+                   else 
+                   {
+                       x.style.display = "block"
+                   }
+                    
+                }
+            </script>
+
+    </head>
+    
+    <body onload="zmienslajd()" >
+       
+       <main>
+           <article>
+               <nav>
+                   <ul>
+                       <li><a href='index.html'>Home</a></li>
+                            <li id='main'><a href='categories.html'>Categories</a>
+                                <ul id='categories'>
+                                    <li class="cat"><a id='link1' href='categories.html#cat1'>Science-Fiction</a></li>
+                                    <li class="cat"><a id='link2' href='categories.html#cat2'>Fantasy</a></li>
+                                    <li class="cat"><a id='link3' href='categories.html#cat3'>Thriller</a></li>
+                                    <li class="cat"><a id='link4' href='categories.html#cat4'>Horror</a></li>
+                                    <li class="cat"><a id='link5' href='categories.html#cat5'>Comedy</a></li>
+                                    <li class="cat"><a id='link6' href='categories.html#cat6'>Self-Help</a></li>
+                                    <li class="cat"><a id='link7' href='categories.html#cat7'>Philosophy</a></li>   
+                                </ul>
+                            </li>
+                            <li id='border'></li>
+                            <li id='contact'><a href='contact_us.html'>Contact us</a></li>
+                            <li ><a href='aboutus.html'>About us</a></li>
+                            <li><a href='feedback.html'>Feedback</a></li>            
+                   </ul>
+                   <img src="img/logo3.png" alt="" />
+               </nav>
+           </article>
+           <article>
+               <section>
+                    <div class='info'>
+                <!-- Author + Genre + Best price -->
+                        <div id='author'>Author : &nbsp;J.K. Rowling</div>
+                        <div id='cat'>Genre : &nbsp;Fantasy</div>
+                        <div id='price'>Best price : &nbsp;£5.99<p style='font-size:20px;color:dimgrey;margin-top: 5px;'>Buy at: Waterstones</p></div>
+                   </div>
+                   
+                <!-- Title + Description -->
+                 
+                  <div class='content'><img src="img/harry-potter.jpg" alt="" style="width: 260px; height: 400px;" /> <h1>Harry Potter and the Philosopher's Stone</h1>&nbsp;&nbsp;&nbsp;Harry Potter has never even heard of Hogwarts when the letters start dropping on the doormat at number four, Privet Drive. Addressed in green ink on yellowish parchment with a purple seal, they are swiftly confiscated by his grisly aunt and uncle. Then, on Harry's eleventh birthday, a great beetle-eyed giant of a man called Rubeus Hagrid bursts in with some astonishing news: Harry Potter is a wizard, and he has a place at Hogwarts School of Witchcraft and Wizardry. An incredible adventure is about to begin! <br><br>
+                    &nbsp;&nbsp;&nbsp;These new editions of the classic and internationally bestselling, multi-award-winning series feature instantly pick-up-able new jackets by Jonny Duddle, with huge child appeal, to bring Harry Potter to the next generation of readers. It's time to PASS THE MAGIC ON ...
+                    </div>
+                  <div class='aside'>
+                       <div class='available'><img alt='' src='img/available.png' /></div>
+                      <div id='rate'>Rate:<span style='font-size: 50px;'><br><span class='star' id='star1' onclick="S1()">★</span><span class='star' id='star2'>★</span><span class='star' id='star3'>★</span><span class='star' id='star4'>★</span><span class='star' id='star5'>★</span></span><br><div style="clear: both"></div><span style="font-size:18px;color: gold;">Average: 4,6</span></div>  
+                      
+                <!-- Specs -->
+                      
+                       <div id='spec'> 
+                      <h2>Specifications: </h2>
+                      Publisher: Bloomsbury Publishing PLC
+                      <br><br><br>
+                      ISBN: 9781408855652
+                       <br><br><br>
+                      Number of pages: 352
+                       <br><br><br>
+                      Weight: 280 g
+                       <br><br><br>
+                      Dimensions: 128 x 196 x 26mm </div>
+                     
+                   </div>
+                 <div style="clear: both"></div>
+                 <div onClick="op('review'); return false;" id='review-button' >>>Reviews</div>
+                 
+                 <!-- Review -->
+                 
+                 <div id='review'>&nbsp;&nbsp;&nbsp;My favourite series and possible favourite book of all time are the Harry Potter series by J.K. Rowling.<br><br>
+
+                &nbsp;&nbsp;&nbsp;Before I write this review can I just say that I'm not a fantasy reader. If I was given £10 to spend on a book I would automatically head for the horror, sci-fi or thriller sections so the fact that Harry Potter is fantasy just shows how amazing the books are!
+                <br><br>
+                &nbsp;&nbsp;&nbsp;The first book is Harry Potter and the Philosopher's Stone. The story starts with Number 4 Privet Drive about a boy called Harry Potter who lives in the cupboard under the stairs of a house owned by Mr and Mrs Dursley with their overly spoiled son called Dudley. In the fist quarter of the book it shows how Harry begins to receive letters which are addressed to him, in his cupboard and at the top of the letter a crest show the letters S,G,R AND H embellished with a snake, a griffin, an eagle and a badger. Even though this alone sounds mysterious Mr and Mrs Dursley don't allow him to read the letters and will go to any length to stop him. As the book progresses The Dursleys go away to a hut in the middle of the ocean to ensure no letters can arrive, but at midnight (before Harry's birthday) a giant of a man, later on to be recognised as Hagrid, bursts in and tells Harry he's a wizard! Hagrid also tells Harry how he came to live at Privet Drive as his parents were murdered by the Dark Lord, Lord Voldemort. He also gives Harry the letter he had been hoping for for weeks it includes a letter to say that Harry will be attending Hogwarts school for Witchcraft and Wizardry and a list of essentials for his year ahead.
+                <br><br>
+                &nbsp;&nbsp;&nbsp;Hagrid also informs Harry that he will have to catch the Hogwarts express which is located at King's Cross at platform 9 and 3/4. When arriving at King's Cross Harry soon realises that there is no platform 9 and 3/4, or at least that is visible. Then Harry meets what is going to be his second family, The Weasleys with 7 children, the youngest boy being Ronald Weasley who will soon become Harry's best friend for life. When they arrive at Hogwarts the first years wait to be sorted by the sorting hat. Harry and Ron are both placed in Griffindor to the delight of the other Weasley children currently attending Hogwarts. (The other houses are Slytherin, Ravenclaw and Hufflepuff.)</div>
+                 <div id='buy'>
+                     <h1>Buy now</h1>
+                     <a href='https://www.amazon.com/Ultimate-Harry-Potter-Philosophy-Hogwarts/dp/0470398256' target="_blank"><div class='depository'><img src="img/amazon-logo.png" alt="" style=" float: left; width: 40%; height: 90%; margin-top:2.5%" /><div class='buy-price'>$14.97</div></div></a>
+                     
+                     <a href='https://www.waterstones.com/book/harry-potter-and-the-philosophers-stone/j-k-rowling/9781408855652' target="_blank"><div class='depository'><img src="img/waterstones_logo.png" alt="" style=" float: left; width: 120px; height: 120px;margin-left: 10px;" /><div class='buy-price'>£5.99</div></div></a>
+                         
+                     <a href='https://www.bookdepository.com/Harry-Potter-Philosophers-Stone-J-K-Rowling/9781408855652?ref=grid-view' target="_blank"><div class='depository'><img src="img/bookdepository-logo.jpg" alt="" style=" float: left; width: 40%; height: 90%; margin-top:2%" /><div class='buy-price'>€8.19&#42;</div></div></a>
+                     
+                     <a href='https://wordery.com/harry-potter-and-the-philosophers-stone-hufflepuff-edition-j-k-rowling-9781408883808?cTrk=OTQ2OTc2MDR8NWI1MDYzOTEwNjViNzoxOjI6NWI1MDVkZmMyMWM1YjAuOTI5ODAxNDk6NmU1MjM4MDk%3D' target="_blank"><div class='depository'><img src="img/wordery-logo.jpg" alt="" style=" float: left; width: 50%; height: 100%; " /><div class='buy-price'>€15.63&#42;</div></div></a>
+                        
+                         <div style="clear: both"></div>
+                    <p style='color:dimgray; font-size: 18px;'>&#42; This price contains free delievery</p>
+                 </div>
+               </section>
+               <section>
+                    <div id='comments'>Comments</div>
+                    
+                        <div><input type='text' id='name' value='Write Your name' ></div>
+                        <div style='height:500px; width:600px; margin:0px;float:left'>
+                            <textarea id='comment' ></textarea>
+                            <div id='submit-button' >>>Submit</div>
+                        </div>
+                        <div class='examples'>
+                            <p>Author: John</p>
+                           
+                            VERY NICE BOOK!</div>
+                        <div class='examples'>
+                            <p>Author: Huvax</p>
+                           
+                            Interesting books which has a good plot!</div>
+                        <div class='examples'>
+                            <p>Author: XY41</p>
+                           
+                            Great idea to publish the book like this!
+                        </div>
+
+                        <div style="clear: both"></div>
+                    
+                        
+               </section>
+           </article>
+           
+          
+       </main> 
+        
+       <footer>
+           <div id="footer">
+               <div class='socialmedia'><a href='https://www.facebook.com' target="_blank"><i class="icon-facebook"></i></a></div>
+               <div class='socialmedia' id='gplus'><a href='https://plus.google.com' target="_blank"><i class="icon-gplus"></i></a></div>
+               <div class='socialmedia'><a href='https://www.youtube.com' target="_blank"><i class="icon-youtube-play"></i></a></div>
+               <div class='socialmedia'><a href='https://www.twitter.com' target="_blank"><i class="icon-twitter-bird"></i></a></div>
+               <div style='clear: both'></div>
+               <details>
+               <summary id="copy-right">
+                   &copy; All rights reserved</summary>
+                   <p id="copy-right2">The site was created by Jan Kustra &amp; Szymon Kuc.</p></details>
+               
+           </div>
+       </footer>
+        <script src="JS/rate.js"></script>
+        
+    </body>
+</html>
