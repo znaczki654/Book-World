@@ -506,8 +506,8 @@ ul >li:last-child
 {
     float:left;
     margin-left: 40px;
-    width: 350px;
-    height: 120px;
+    width: 20%;
+    height: 14.5%;
     background-color: white;
     color: black; 
 }
@@ -523,9 +523,9 @@ ul >li:last-child
 .buy-price
 {
     font-size: 40px;
-    float: left;
-    line-height: 120px;
-    margin-left:50px;
+    float: left;   
+    margin-left: 50px;
+	line-height: 135px;
 }
 #comments
 {
@@ -741,3 +741,74 @@ ul >li:last-child
      transform: scale(1.04);
      cursor: pointer;
 }
+
+
+/* Responsywna strona */
+
+@media only screen and (max-width: 1748px)
+{
+
+	.buy-price
+	{
+		font-size: 30px;
+		line-height: 125px;
+	}
+}
+
+@media only screen and (max-width: 1430px)
+{
+
+	.buy-price
+	{
+		font-size: 28px;
+		line-height: 98px;
+	}
+}
+
+@media only screen and (max-width: 1336px)
+{
+
+	.buy-price
+	{
+		font-size: 23px;
+		line-height: 95px;
+	}
+	.depository:first-of-type
+	{
+    	margin-left: 40px;
+	}
+}
+
+@media only screen and (max-width: 1070px)
+{
+
+	.buy-price
+	{
+		font-size: 20px;
+		line-height: 75px;
+	}
+}
+/* faza testów
+@media only screen and (max-width: 1008px)
+{
+
+	.buy-price
+	{
+		font-size: 20px;
+		line-height: 75px;
+	}
+	div.depository:nth-last-child(odd)
+	{
+		color: white;
+	}
+	div.depository:nth-last-child(1)
+	{
+		color: white;
+	}
+	
+	div.depository:nth-last-child(3)
+	{
+		color: white;
+	}
+}
+*/
