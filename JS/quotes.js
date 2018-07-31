@@ -15,8 +15,8 @@ function nextQuote()
     
     document.getElementById('quotes').innerHTML = quotes[number];
     
-    setTimeout('nextQuote()',5500);
-    setTimeout('hide()',5000);
+    setTimeout('nextQuote()',3500);
+    setTimeout('hide()',3000);
 }
 
 function hide()

@@ -29,13 +29,14 @@ a:hover
 nav > img
 {
     position: absolute;
-    left: 39.524%;
+    left: 37.524%;
     top: 15px;
     
 }
 ul
 {
     margin-top: 0px;
+    padding-left: 2.5%;
 }
 
 ul > li
@@ -49,7 +50,7 @@ ul > li
 }
 ul > li:first-child
 {
-    margin-left: 20px;
+
      border-right: dotted 2px #18181e;
     padding-right: 20px;
 }
@@ -138,7 +139,7 @@ ul >li:last-child
 #slider
 {
     margin: 0 auto;
-    height: 600px;
+    height: 85%;
     width: 100%;
     margin-top: 160px;
     color: white;
@@ -198,7 +199,7 @@ ul >li:last-child
 .image
 {
     float: left;
-    height: 400px;
+    height: 80%;
     width: 20%;
     margin-left: 20px; 
     margin-top: 25px;
@@ -490,9 +491,10 @@ ul >li:last-child
 {
     font-size: 20px;
     margin: 0 auto;
-    margin-bottom: 60px;
+    margin-bottom: 20px;
     border-top: dashed 3px #1a8ecc;
     width: 90%;
+    margin-bottom: 40px;
     padding-bottom: 60px;
     border-bottom: dashed 3px #1a8ecc;
 }
@@ -540,10 +542,11 @@ ul >li:last-child
 }
 #name
 {
-    margin-top:130px;
+    margin-top:100px;
     font-size:22px;
     width: 400px;
     margin-bottom: 30px;
+    margin-top: 30px;
     opacity: 0.9;
      margin-left: 100px;
 }
@@ -741,6 +744,61 @@ ul >li:last-child
      transform: scale(1.04);
      cursor: pointer;
 }
+#slider > img
+{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+@media only screen and (max-width: 1800px) 
+{
+.buy-price
+	{
+		font-size: 30px;
+		line-height: 125px;
+	}
+.socialmedia
+{
+    margin-left: 140px;
+    height: 210px;
+}
+.socialmedia:first-child
+{
+    margin-left: 4%;
+}
+#gplus
+    
+{
+    margin-left: 130px;
+}
+#contact
+{
+    margin-left: 60%;
+}
+
+ul > li
+{
+    margin-top: 18.5px;
+    font-size: 26px;
+}
+nav
+{
+    height: 70px;
+}
+nav > img
+{
+    left: 35.5%;
+    top: 7px;
+    transform: scale(0.85);
+}
+#border
+{
+   height: 32.5px; 
+}
+
+}
 
 /* Dodano kursor w formie łapki do stopki */
 details
@@ -749,16 +807,47 @@ details
 }
 
 /* Responsywna strona */
-
-@media only screen and (max-width: 1748px)
+@media only screen and (max-width: 1600px) 
 {
-
-	.buy-price
-	{
-		font-size: 30px;
-		line-height: 125px;
-	}
+    
+#contact
+{
+    margin-left: 54%;
 }
+.text
+{
+    font-size: 20px;
+}
+ .Title
+{
+    font-size: 28px;
+}
+.image
+{
+    height: 65%;
+}
+.window
+{
+    width: 70%; 
+    height: 400px;
+}
+
+
+.socialmedia
+{
+    margin-left: 100px;
+    height: 190px;
+}
+.socialmedia:first-child
+{
+    margin-left: 3%;
+}
+#gplus
+{
+    margin-left: 90px;
+}
+}
+
 
 @media only screen and (max-width: 1490px)
 {
@@ -768,15 +857,56 @@ details
 		line-height: 105px;
 	}
 }
-
-@media only screen and (max-width: 1430px)
+@media only screen and (max-width: 1440px) 
 {
-
-	.buy-price
+.buy-price
 	{
 		font-size: 28px;
 		line-height: 98px;
 	}
+.image
+{ 
+    height: 75%;
+}
+.window 
+{
+ 
+    width: 75%;
+    height: 400px;
+}
+ul > li
+{
+    margin-top: 18.5px;
+    font-size: 22px;
+}
+nav
+{
+    height: 65px;
+}
+nav > img
+{
+    left: 34.5%;
+    top: 6px;
+    transform: scale(0.85);
+}
+#border
+{
+   height: 30.5px; 
+}
+.socialmedia
+{
+    margin-left: 75px;
+    height: 180px;
+}
+.socialmedia:first-child
+{
+    margin-left: 1%;
+}
+#gplus
+{
+    margin-left: 65px;
+}
+        
 }
 
 @media only screen and (max-width: 1360px)
@@ -793,7 +923,24 @@ details
 	}
 }
 
+@media only screen and (max-width: 1320px) 
+{
 
+.socialmedia
+{
+    margin-left: 50px;
+    height: 180px;
+}
+.socialmedia:first-child
+{
+    margin-left: 1%;
+}
+#gplus
+{
+    margin-left: 40px;
+}
+
+}
 @media only screen and (max-width: 1260px)
 {
 
@@ -803,6 +950,64 @@ details
 	}
 }
 
+@media only screen and (max-width: 1240px) 
+{
+ ul > li
+{
+    margin-top: 18.5px;
+    font-size: 20px;
+}
+nav
+{
+    height: 60px;
+}
+nav > img
+{
+    left: 32.5%;
+    top: 4px;
+    transform: scale(0.70);
+}
+#contact
+{
+    margin-left: 50%;
+}
+
+#border
+{
+   height: 32.5px; 
+}
+.text
+{
+    font-size: 18px;
+}
+ .Title
+{
+    font-size: 26px;
+}
+.image
+{
+    height: 70%;
+}
+.window
+{
+    width: 75%; 
+    height: 360px;
+}
+.socialmedia
+{
+    margin-left: 30px;
+    height: 100px;
+}
+.socialmedia:first-of-type
+    {
+        margin-left: 10px;
+    }
+#gplus
+{
+    margin-left: 20px;
+}
+
+}
 @media only screen and (max-width: 1140px)
 {
 
@@ -823,29 +1028,3 @@ details
 	}
 	
 }
-
-
-/* faza testów
-@media only screen and (max-width: 1008px)
-{
-
-	.buy-price
-	{
-		font-size: 20px;
-		line-height: 75px;
-	}
-	div.depository:nth-last-child(odd)
-	{
-		color: white;
-	}
-	div.depository:nth-last-child(1)
-	{
-		color: white;
-	}
-	
-	div.depository:nth-last-child(3)
-	{
-		color: white;
-	}
-}
-*/
