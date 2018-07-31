@@ -742,6 +742,11 @@ ul >li:last-child
      cursor: pointer;
 }
 
+/* Dodano kursor w formie łapki do stopki */
+details
+{
+	cursor:pointer;
+}
 
 /* Responsywna strona */
 
@@ -755,6 +760,15 @@ ul >li:last-child
 	}
 }
 
+@media only screen and (max-width: 1490px)
+{
+
+	.buy-price
+	{
+		line-height: 105px;
+	}
+}
+
 @media only screen and (max-width: 1430px)
 {
 
@@ -765,7 +779,7 @@ ul >li:last-child
 	}
 }
 
-@media only screen and (max-width: 1336px)
+@media only screen and (max-width: 1360px)
 {
 
 	.buy-price
@@ -779,7 +793,17 @@ ul >li:last-child
 	}
 }
 
-@media only screen and (max-width: 1070px)
+
+@media only screen and (max-width: 1260px)
+{
+
+	.buy-price
+	{
+		line-height: 85px;
+	}
+}
+
+@media only screen and (max-width: 1140px)
 {
 
 	.buy-price
@@ -788,6 +812,19 @@ ul >li:last-child
 		line-height: 75px;
 	}
 }
+
+@media only screen and (max-width: 960px)
+{
+
+	.buy-price
+	{
+		font-size: 18px;
+		line-height: 65px;
+	}
+	
+}
+
+
 /* faza testów
 @media only screen and (max-width: 1008px)
 {
