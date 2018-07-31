@@ -469,7 +469,7 @@ ul >li:last-child
     margin-bottom: 50px;
     float: left;
     border-left: dashed 3px #1a8ecc;
-    height: 600px;
+    height: 80%;
     width: 20%;
 }
 #rate
@@ -533,7 +533,8 @@ ul >li:last-child
 {
     font-size: 52px;
     text-align: center;
-    letter-spacing: 6px;  
+    letter-spacing: 6px;
+  
 }
 
 #layout
@@ -550,15 +551,20 @@ ul >li:last-child
     opacity: 0.9;
      margin-left: 100px;
 }
-
+#box
+{
+    float:left;
+    height: 45%;
+    width: 35%;
+}
 #comment
 {
  
-    float: left;
+    
     font-size:22px;
-    width: 600px;
-    height: 250px;
-    margin-bottom: 50px;
+    width: 85%;
+    height: 12em;
+    margin-bottom: 10%;
     margin-left: 100px;
      opacity: 0.9;
 }
@@ -567,14 +573,14 @@ ul >li:last-child
 {
     margin-left: 200px;
     float: left;
-    width:800px;
-    height: 100px;
+    width: 40%;
+    height: 10%;
     background-color: white;
     border-radius: 10px;
     margin-bottom: 30px;
     color: black;
     text-align: left;
-    font-size: 28px;
+    font-size: 23px;
     padding-left: 20px;
     opacity: 0.9;
 }
@@ -588,8 +594,10 @@ ul >li:last-child
   
     font-size: 32px;
     color: white;
-    width: 100px;
-    margin-left: 500px;
+    position: relative;
+    top: 400%;
+    left: 70%;
+    margin-left: 100px;
     margin-right: 0px;
     margin-bottom: 50px;
 }
@@ -623,7 +631,7 @@ ul >li:last-child
     float: left;
     margin-top: 130px;
     width: 600px;
-    margin-left:225px;
+    margin-left: 225px;
     height: 600px;
     margin-bottom: 65px;
    
@@ -848,10 +856,49 @@ details
 }
 }
 
+@media only screen and (max-width: 1572px)
+{
+
+    #submit-button
+{
+  
+    left: 67%;
+}
+}
 
 @media only screen and (max-width: 1490px)
 {
 
+#cat
+{
+
+    margin-left: 20%;
+    
+}
+#price
+{
+
+    margin-left: 20%;
+    
+}
+#review-button
+{
+    
+    margin-left: 850px;
+   
+}
+    .content
+    {
+        width: 65%;
+    }
+    .aside
+    {
+        width: 15%;
+    }
+    .star
+    {
+        font-size: 32px;
+    }
 	.buy-price
 	{
 		line-height: 105px;
@@ -859,6 +906,11 @@ details
 }
 @media only screen and (max-width: 1440px) 
 {
+#name
+    
+{
+    width: 300px;  
+}
 .buy-price
 	{
 		font-size: 28px;
@@ -925,6 +977,11 @@ nav > img
 
 @media only screen and (max-width: 1320px) 
 {
+.available > img
+{
+    width: 150%;
+    height: 150%;
+}
 
 .socialmedia
 {
@@ -948,6 +1005,12 @@ nav > img
 	{
 		line-height: 85px;
 	}
+       #review-button
+{
+    
+    margin-left: 750px;
+   
+}
 }
 
 @media only screen and (max-width: 1240px) 
@@ -1016,15 +1079,39 @@ nav > img
 		font-size: 20px;
 		line-height: 75px;
 	}
+#review-button
+{
+    
+    margin-left: 700px;
+   
+}
 }
 
 @media only screen and (max-width: 960px)
-{
-
+{   
 	.buy-price
 	{
 		font-size: 18px;
 		line-height: 65px;
 	}
-	
+}
+@media only screen and (max-width: 900px)
+{
+	.star
+	{
+		font-size: 28px;
+	}
+#review-button
+{
+    
+    margin-left: 500px;
+   
+}
+}
+@media only screen and (max-width: 800px)
+{
+	.star
+	{
+		font-size: 25px;
+	}
 }
