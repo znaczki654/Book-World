@@ -1011,6 +1011,19 @@ nav > img
      width: 850px;
      margin-top: 16.5px;
 }
+/* O książce - autor, cena, gatunek + gdzie kupić */
+#author
+{    
+    font-size: 25px;
+}
+#cat
+{
+    font-size: 25px;
+}
+#price
+{
+    font-size: 25px;
+}
 
 }
 @media only screen and (max-width: 1260px)
@@ -1097,15 +1110,15 @@ nav > img
 /* O książce - autor, cena, gatunek + gdzie kupić */
 #author
 {    
-    font-size: 25px;
+    font-size: 20px;
 }
 #cat
 {
-    font-size: 25px;
+    font-size: 20px;
 }
 #price
 {
-    font-size: 25px;
+    font-size: 20px;
 }
 #categories
 {
@@ -1174,6 +1187,19 @@ nav > img
     {
         left: 60%;
     }
+    /* O książce - autor, cena, gatunek + gdzie kupić */
+#author
+{    
+    font-size: 17px;
+}
+#cat
+{
+    font-size: 17px;
+}
+#price
+{
+    font-size: 17px;
+}
 }
 
 @media only screen and (max-width: 960px)
@@ -1195,6 +1221,19 @@ nav > img
     
     margin-left: 500px;
    
+}
+    /* O książce - autor, cena, gatunek + gdzie kupić */
+#author
+{    
+    font-size: 14px;
+}
+#cat
+{
+    font-size: 14px;
+}
+#price
+{
+    font-size: 14px;
 }
 }
 @media only screen and (max-width: 800px)
