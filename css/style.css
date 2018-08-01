@@ -974,6 +974,10 @@ nav > img
 	{
     	margin-left: 40px;
 	}
+    .cat
+{
+    font-size: 17px;    
+}
 }
 
 @media only screen and (max-width: 1320px) 
@@ -997,6 +1001,16 @@ nav > img
 {
     margin-left: 40px;
 }
+    .cat
+{
+    font-size: 17px;    
+}
+    #categories
+{
+     height: 45px;
+     width: 850px;
+     margin-top: 16.5px;
+}
 
 }
 @media only screen and (max-width: 1260px)
@@ -1011,6 +1025,16 @@ nav > img
     
     margin-left: 750px;
    
+}
+    .cat
+{
+    font-size: 17px;    
+}
+    #categories
+{
+     height: 45px;
+     width: 850px;
+     margin-top: 16.5px;
 }
 }
 @media only screen and (max-width: 1240px)
