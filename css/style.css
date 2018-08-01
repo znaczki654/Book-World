@@ -553,23 +553,21 @@ ul >li:last-child
 {
     float:left;
     height: 45%;
-    width: 35%;
+    width: 45%;
 }
 #comment
 {
- 
-    
     font-size:22px;
     width: 85%;
     height: 12em;
     margin-bottom: 10%;
     margin-left: 100px;
-     opacity: 0.9;
+    opacity: 0.9;
 }
 
 .examples
 {
-    margin-left: 200px;
+    margin-left: 65px;
     float: left;
     width: 40%;
     height: 10%;
@@ -581,6 +579,11 @@ ul >li:last-child
     font-size: 23px;
     padding-left: 20px;
     opacity: 0.9;
+}
+#exbox
+{
+    position: relative;
+    top: -60px;
 }
 
 .examples p
