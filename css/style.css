@@ -542,8 +542,8 @@ ul >li:last-child
 }
 #name
 {
-    margin-top:130px;
-    font-size:22px;
+    margin-top: 100px;
+    font-size: 22px;
     width: 400px;
     margin-bottom: 30px;
     opacity: 0.9;
@@ -1169,6 +1169,10 @@ nav > img
     nav > img
     {
         top: 1px;
+    }
+    #submit-button
+    {
+        left: 60%;
     }
 }
 
