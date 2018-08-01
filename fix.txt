@@ -1,0 +1,73 @@
+Zmiany aby scroll dzia³a³ w Firefoxie:
+
+1. Usuñ niepotrzebn¹ linijkê w index.html:
+<script src="JS/jquery.scrollTo.min.js"></script>
+
+2. Zmieñ star¹ wersjê jQuery na nowsz¹ w ka¿dej podstronie oprócz feedback.html oraz aboutus.html
+a) usuñ:
+<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+b) zast¹p:
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+3. Zamieñ kod w pliku fix.js na to (WYMAGANE):
+   
+jQuery(function($)
+            {
+        
+            
+            //odniesienie siê ka¿dego linku do odpowiedniego miejsca oznaczonego #x z prêdkoœci¹ 500ms
+            $('#link1').click(function() { $.scrollTo($('#cat1'), 500); });
+            $('#link2').click(function() { $.scrollTo($('#cat2'), 500); });
+            $('#link3').click(function() { $.scrollTo($('#cat3'), 500); });
+            $('#link4').click(function() { $.scrollTo($('#cat4'), 500); });
+            $('#link5').click(function() { $.scrollTo($('#cat5'), 500); });
+            $('#link6').click(function() { $.scrollTo($('#cat6'), 500); });
+            $('#link7').click(function() { $.scrollTo($('#cat7'), 500); });
+            $('#map-button').click(function() { $.scrollTo($('#map'), 500); });
+            
+       
+        }
+        );
+        
+4. Usuñ niepotrzebny kod w zak³adkach aboutus.html oraz feedback.html:
+       
+<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+
+6. Usuñ wszêdzie OPRÓCZ categories.html i contactus.html linijkê kodu:
+<script src='JS/fix.js'></script>
+
+7. Usuñ wszêdzie POZA podstronami z ksi¹¿kami:
+<script>
+               function op(obj) 
+                {
+                   x=document.getElementById(obj);
+                   if(x.style.display == "block")
+                   {
+                    x.style.display = "none"
+                   }
+                   else 
+                   {
+                       x.style.display = "block"
+                   } 
+                }
+         
+</script>
+
+8. Usuñ wszêdzie poza index.html:
+<script src="JS/slider.js"></script>
+<script src="JS/quotes.js"></script>
+
+
+Other changes:
+1. Added language in HTML tag.
+2. Added space between link and "target" attribute.
+3. Deleted type="javascript" in scripts - useless now.
+4. Deleted type="text" in text area.
+5. Changed some divs to spans.
+6. Deleted repetetive divs and changed them into classes.
+7. Added attribute alt='' in images.
+8. Added some comments.
+9. Changed the content of every subpage, did not change the content of CSS file.
+10. Changed the speed amount of changing quotes:
+setTimeout('nextQuote()',5500);
+setTimeout('hide()',5000);
