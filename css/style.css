@@ -898,7 +898,7 @@ details
     }
     .star
     {
-        font-size: 32px;
+        font-size: 40px;
     }
 	.buy-price
 	{
@@ -1120,7 +1120,10 @@ nav > img
 
 @media only screen and (max-width: 1140px)
 {
-
+.star
+    {
+        font-size: 32px;
+    }
 	.buy-price
 	{
 		font-size: 20px;
@@ -1177,7 +1180,7 @@ nav > img
 		line-height: 65px;
 	}
 }
-@media only screen and (max-width: 900px)
+@media only screen and (max-width: 907px)
 {
 	.star
 	{
