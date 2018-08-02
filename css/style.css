@@ -759,7 +759,12 @@ ul >li:last-child
     height: 100%;
 }
 
-
+/* Dodano kursor w formie łapki do stopki */
+details
+{
+	cursor:pointer;
+}
+/* Responsywna strona */
 
 @media only screen and (max-width: 1800px) 
 {
@@ -809,13 +814,21 @@ nav > img
 
 }
 
-/* Dodano kursor w formie łapki do stopki */
-details
+/* O książce - autor, cena, gatunek + gdzie kupić */
+#author
+{    
+    font-size: 28px;
+}
+#cat
 {
-	cursor:pointer;
+    font-size: 28px;
+}
+#price
+{
+    font-size: 28px;
 }
 
-/* Responsywna strona */
+
 @media only screen and (max-width: 1600px) 
 {
     
@@ -864,6 +877,19 @@ details
 {
   
     left: 67%;
+}
+    /* O książce - autor, cena, gatunek + gdzie kupić */
+#author
+{    
+    font-size: 25px;
+}
+#cat
+{
+    font-size: 25px;
+}
+#price
+{
+    font-size: 25px;
 }
 }
 
@@ -1010,19 +1036,6 @@ nav > img
      height: 45px;
      width: 850px;
      margin-top: 16.5px;
-}
-/* O książce - autor, cena, gatunek + gdzie kupić */
-#author
-{    
-    font-size: 25px;
-}
-#cat
-{
-    font-size: 25px;
-}
-#price
-{
-    font-size: 25px;
 }
 
 }
