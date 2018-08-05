@@ -631,6 +631,14 @@ ul >li:last-child
 {
     margin-top: 150px;
     margin-left: 50px;
+    width: 97.373%;
+    height: 100%;
+}
+#bookpng > img
+{
+    width: 27.631%;
+    height: 27.631%;
+    float: left;
 }
 #contact-us
 {
@@ -765,6 +773,7 @@ ul >li:last-child
 }
 
 /* Dodano kursor w formie łapki do stopki */
+
 details
 {
 	cursor:pointer;
@@ -904,6 +913,14 @@ nav > img
 {
     font-size: 19px;
 }
+.content2
+    {
+        font-size: 18px;
+    }
+#bookpng > img
+    {
+        transform: scale(0.8)
+    }
 }
 
 @media only screen and (max-width: 1490px)
