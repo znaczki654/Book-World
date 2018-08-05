@@ -1090,6 +1090,19 @@ nav > img
      width: 850px;
      margin-top: 16.5px;
 }
+    .socialmedia
+{
+    margin-left: 30px;
+    height: 100px;
+}
+.socialmedia:first-of-type
+    {
+        margin-left: 10px;
+    }
+#gplus
+{
+    margin-left: 20px;
+}
 }
 @media only screen and (max-width: 1240px)
 {
@@ -1134,19 +1147,7 @@ nav > img
     width: 75%; 
     height: 360px;
 }
-.socialmedia
-{
-    margin-left: 30px;
-    height: 100px;
-}
-.socialmedia:first-of-type
-    {
-        margin-left: 10px;
-    }
-#gplus
-{
-    margin-left: 20px;
-}
+
 
 /* O książce - autor, cena, gatunek + gdzie kupić */
 #author

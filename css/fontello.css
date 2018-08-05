@@ -90,7 +90,7 @@
 .icon-facebook:before { content: '\f300'; font-size: 120px;} 
 .icon-twitter-bird:before { content: '\f303'; font-size: 120px; }
 }
-@media only screen and (max-width: 1240px) 
+@media only screen and (max-width: 1260px) 
 {
     
 .icon-gplus:before{font-size:80px;}
