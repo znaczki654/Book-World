@@ -336,8 +336,7 @@ ul >li:last-child
     
     float: left;
     margin-left: 80px;
-    width:260px;
-    height: 400px;
+    width: 13.663%;
     margin-bottom: 20px;
 }
 .book:hover
@@ -364,6 +363,7 @@ ul >li:last-child
     margin: 0 auto;
     margin-top: 180px;
 }
+/* O książce - autor, cena, gatunek + gdzie kupić */
 #author
 {
     float: left;
@@ -392,7 +392,7 @@ ul >li:last-child
 }
 #price2
 {
-    font-size: 25px;
+    font-size: 22px;
     color: dimgrey;
     margin-top: 5px;
 }
@@ -788,62 +788,74 @@ details
 		line-height: 125px;
 	}
 .socialmedia
-{
-    margin-left: 140px;
-    height: 210px;
-}
+    {
+        margin-left: 140px;
+        height: 210px;
+    }
 .socialmedia:first-child
-{
-    margin-left: 4%;
-}
+    {
+        margin-left: 4%;
+    }
 #gplus
     
-{
-    margin-left: 130px;
-}
+    {
+        margin-left: 130px;
+    }
 #contact
-{
-    margin-left: 60%;
-}
+    {
+        margin-left: 60%;
+    }
 
 ul > li
-{
-    margin-top: 18.5px;
-    font-size: 26px;
-}
+    {
+        margin-top: 18.5px;
+        font-size: 26px;
+    }
 nav
-{
-    height: 70px;
-}
+    {
+        height: 70px;
+    }
 nav > img
-{
-    left: 35.5%;
-    top: 7px;
-    transform: scale(0.85);
-}
+    {
+        left: 35.5%;
+        top: 7px;
+        transform: scale(0.85);
+    }
 #border
+    {
+        height: 32.5px; 
+    }
+
+.first
+    {
+        margin-left: 285px;
+    }
+}
+
+@media only screen and (max-width: 1621px)
 {
-   height: 32.5px; 
-}
-
-}
-
-/* O książce - autor, cena, gatunek + gdzie kupić */
+    /* O książce - autor, cena, gatunek + gdzie kupić */
 #author
-{    
-    font-size: 28px;
-}
+    {    
+        font-size: 28px;
+    }
 #cat
-{
-    font-size: 28px;
-}
+    {
+        font-size: 28px;
+    }
 #price
-{
-    font-size: 28px;
-}
+    {
+        font-size: 28px;
+    }
 #price2
-{
-    font-size: 22px;
+    {
+        font-size: 18px;
+        color: dimgray;
+    }
+.first
+    {
+        margin-left: 245px;
+    }
 }
 
 
@@ -851,68 +863,68 @@ nav > img
 {
     
 #contact
-{
-    margin-left: 54%;
-}
+    {
+        margin-left: 54%;
+    }
 .text
-{
-    font-size: 20px;
-}
- .Title
-{
-    font-size: 28px;
-}
-.image
-{
-    height: 65%;
-}
-.window
-{
-    width: 70%; 
-    height: 400px;
-}
-
-
+    {
+        font-size: 20px;
+    }
+.Title
+    {
+        font-size: 28px;
+    }
+    .image
+    {
+        height: 65%;
+    }
+    .window
+    {
+        width: 70%; 
+        height: 400px;
+    }
 .socialmedia
-{
-    margin-left: 100px;
-    height: 190px;
-}
+    {
+        margin-left: 100px;
+        height: 190px;
+    }
 .socialmedia:first-child
-{
-    margin-left: 3%;
-}
+    {
+        margin-left: 3%;
+    }
 #gplus
-{
-    margin-left: 90px;
-}
+    {
+        margin-left: 90px;
+    }
+.first
+    {
+        margin-left: 240px;
+    }
 }
 
 @media only screen and (max-width: 1572px)
 {
-
-    #submit-button
-{
-  
-    left: 67%;
-}
-    /* O książce - autor, cena, gatunek + gdzie kupić */
+#submit-button
+    {  
+        left: 67%;
+    }
+/* O książce - autor, cena, gatunek + gdzie kupić */
 #author
-{    
-    font-size: 25px;
-}
+    {    
+        font-size: 25px;
+    }
 #cat
-{
-    font-size: 25px;
-}
+    {
+        font-size: 25px;
+    }
 #price
-{
-    font-size: 25px;
-}
+    {
+        font-size: 25px;
+    }
 #price2
-{
-    font-size: 19px;
-}
+    {
+        font-size: 19px;
+    }
 .content2
     {
         font-size: 18px;
@@ -921,99 +933,104 @@ nav > img
     {
         transform: scale(0.8)
     }
+.first
+    {
+        margin-left: 235px;
+    }
 }
 
 @media only screen and (max-width: 1490px)
 {
 
 #cat
-{
-
-    margin-left: 20%;
-    
-}
+    {
+        margin-left: 20%;  
+    }
 #price
-{
-    margin-left: 20%;
-}
+    {
+        margin-left: 20%;
+    }
 #review-button
-{
-    
-    margin-left: 850px;
-   
-}
-    .content
+    {
+        margin-left: 850px;
+    }
+.content
     {
         width: 65%;
     }
-    .aside
+.aside
     {
         width: 15%;
     }
-    .star
+.star
     {
         font-size: 40px;
     }
-	.buy-price
+.buy-price
 	{
 		line-height: 105px;
 	}
+.first
+    {
+        margin-left: 215px;
+    }
 }
 @media only screen and (max-width: 1440px) 
 {
-#name
-    
-{
-    width: 300px;  
-}
+#name 
+    {
+        width: 300px;  
+    }
 .buy-price
 	{
 		font-size: 28px;
 		line-height: 98px;
 	}
 .image
-{ 
+    { 
     height: 75%;
-}
+    }
 .window 
-{
- 
-    width: 75%;
-    height: 400px;
-}
+    {
+        width: 75%;
+        height: 400px;
+    }
 ul > li
-{
-    margin-top: 18.5px;
-    font-size: 22px;
-}
+    {
+        margin-top: 18.5px;
+        font-size: 22px;
+    }
 nav
-{
-    height: 65px;
-}
+    {
+        height: 65px;
+    }
 nav > img
-{
-    left: 34.5%;
-    top: 6px;
-    transform: scale(0.85);
-}
+    {
+        left: 34.5%;
+        top: 6px;
+        transform: scale(0.85);
+    }
 #border
-{
-   height: 30.5px; 
-}
+    {
+       height: 30.5px; 
+    }
 .socialmedia
-{
-    margin-left: 75px;
-    height: 180px;
-}
+    {
+        margin-left: 75px;
+        height: 180px;
+    }
 .socialmedia:first-child
-{
-    margin-left: 1%;
-}
+    {
+        margin-left: 1%;
+    }
 #gplus
-{
-    margin-left: 65px;
-}
-        
+    {
+        margin-left: 65px;
+    }
+.first
+    {
+        margin-left: 205px;
+    }
 }
 
 @media only screen and (max-width: 1360px)
