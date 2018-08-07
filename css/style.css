@@ -1035,20 +1035,23 @@ nav > img
 
 @media only screen and (max-width: 1360px)
 {
-
-	.buy-price
+.buy-price
 	{
 		font-size: 23px;
 		line-height: 95px;
 	}
-	.depository:first-of-type
+.depository:first-of-type
 	{
     	margin-left: 40px;
 	}
-    .cat
-{
-    font-size: 17px;    
-}
+.cat
+    {
+        font-size: 17px;    
+    }
+.first
+    {
+        margin-left: 185px;
+    }
 }
 
 @media only screen and (max-width: 1320px) 
@@ -1058,7 +1061,6 @@ nav > img
     width: 150%;
     height: 150%;
 }
-
 .socialmedia
 {
     margin-left: 50px;
@@ -1072,116 +1074,9 @@ nav > img
 {
     margin-left: 40px;
 }
-    .cat
+.cat
 {
     font-size: 17px;    
-}
-    #categories
-{
-     height: 45px;
-     width: 850px;
-     margin-top: 16.5px;
-}
-
-}
-@media only screen and (max-width: 1260px)
-{
-
-	.buy-price
-	{
-		line-height: 85px;
-	}
-       #review-button
-{
-    
-    margin-left: 750px;
-   
-}
-    .cat
-{
-    font-size: 17px;    
-}
-    #categories
-{
-     height: 45px;
-     width: 850px;
-     margin-top: 16.5px;
-}
-    .socialmedia
-{
-    margin-left: 30px;
-    height: 100px;
-}
-.socialmedia:first-of-type
-    {
-        margin-left: 10px;
-    }
-#gplus
-{
-    margin-left: 20px;
-}
-}
-@media only screen and (max-width: 1240px)
-{
- ul > li
-{
-    margin-top: 18.5px;
-    font-size: 20px;
-}
-nav
-{
-    height: 60px;
-}
-nav > img
-{
-    left: 32.5%;
-    top: 4px;
-    transform: scale(0.70);
-}
-#contact
-{
-    margin-left: 50%;
-}
-
-#border
-{
-   height: 32.5px; 
-}
-.text
-{
-    font-size: 18px;
-}
- .Title
-{
-    font-size: 26px;
-}
-.image
-{
-    height: 70%;
-}
-.window
-{
-    width: 75%; 
-    height: 360px;
-}
-
-
-/* O książce - autor, cena, gatunek + gdzie kupić */
-#author
-{    
-    font-size: 20px;
-}
-#cat
-{
-    font-size: 20px;
-}
-#price
-{
-    font-size: 20px;
-}
-    #price2
-{
-    font-size: 16px;
 }
 #categories
 {
@@ -1189,9 +1084,123 @@ nav > img
      width: 850px;
      margin-top: 16.5px;
 }
-.cat
+.first
+    {
+        margin-left: 175px;
+    }
+}
+@media only screen and (max-width: 1260px)
 {
-    font-size: 17px;    
+
+.buy-price
+	{
+		line-height: 85px;
+	}
+#review-button
+    {
+        margin-left: 750px;
+    }
+.cat
+    {
+        font-size: 17px;    
+    }
+#categories
+    {
+         height: 45px;
+         width: 850px;
+         margin-top: 16.5px;
+    }
+.socialmedia
+    {
+        margin-left: 30px;
+        height: 100px;
+    }
+.socialmedia:first-of-type
+    {
+        margin-left: 10px;
+    }
+#gplus
+    {
+        margin-left: 20px;
+    }
+.first
+    {
+        margin-left: 160px;
+    }
+}
+@media only screen and (max-width: 1240px)
+{
+ ul > li
+    {
+        margin-top: 18.5px;
+        font-size: 20px;
+    }
+nav
+    {
+        height: 60px;
+    }
+nav > img
+    {
+        left: 32.5%;
+        top: 4px;
+        transform: scale(0.70);
+    }
+#contact
+    {
+        margin-left: 50%;
+    }
+#border
+    {
+       height: 32.5px; 
+    }
+.text
+    {
+        font-size: 18px;
+    }
+ .Title
+    {
+        font-size: 26px;
+    }
+.image
+    {
+        height: 70%;
+    }
+.window
+    {
+        width: 75%; 
+        height: 360px;
+    }
+/* O książce - autor, cena, gatunek + gdzie kupić */
+#author
+    {    
+        font-size: 20px;
+    }
+#cat
+    {
+        font-size: 20px;
+    }
+#price
+    {
+        font-size: 20px;
+    }
+#price2
+    {
+        font-size: 16px;
+    }
+#categories
+    {
+         height: 45px;
+         width: 850px;
+         margin-top: 16.5px;
+    }
+.cat
+    {
+        font-size: 17px;    
+    }
+.first
+    {
+        margin-left: 155px;
+    }
 }
 
 @media only screen and (max-width: 1140px)
@@ -1200,117 +1209,134 @@ nav > img
     {
         font-size: 32px;
     }
-	.buy-price
+.buy-price
 	{
 		font-size: 20px;
 		line-height: 75px;
 	}
 #review-button
-{
-    
-    margin-left: 700px;
-   
-}
+    {
+        margin-left: 700px; 
+    }
+.first
+    {
+        margin-left: 135px;
+    }
 }
 
 @media only screen and (max-width: 1084px)
 {
-   ul > li
+ul > li
     {
-    margin-top: 18.5px;
-    font-size: 18px;
+        margin-top: 18.5px;
+        font-size: 18px;
     }
-    nav > img
+nav > img
     {
         transform: scale(0.55);
     }
-    #border
+#border
     {
        height: 20.5px; 
     }
-    #categories
+#categories
     {
         height: 45px;
         width: 850px;
         margin-top: 13.5px;
     }
-    .cat
+.cat
     {
         font-size: 16.5px;
     }
-    nav
+nav
     {
         height: 55px;
     }
-    nav > img
+nav > img
     {
         top: 1px;
     }
-    #submit-button
+#submit-button
     {
         left: 60%;
     }
     /* O książce - autor, cena, gatunek + gdzie kupić */
 #author
-{    
-    font-size: 17px;
-}
+    {    
+        font-size: 17px;
+    }
 #cat
-{
-    font-size: 17px;
-}
+    {
+        font-size: 17px;
+    }
 #price
-{
-    font-size: 17px;
-}
-    #price2
-{
-    font-size: 13px;
-}
+    {
+        font-size: 17px;
+    }
+#price2
+    {
+        font-size: 13px;
+    }
+.first
+    {
+        margin-left: 120px;
+    }
 }
 
 @media only screen and (max-width: 960px)
 {   
-	.buy-price
+.buy-price
 	{
 		font-size: 18px;
 		line-height: 65px;
 	}
+.first
+    {
+        margin-left: 95px;
+    }
 }
+
 @media only screen and (max-width: 907px)
 {
-	.star
+.star
 	{
 		font-size: 28px;
 	}
 #review-button
-{
-    
-    margin-left: 500px;
-   
-}
-    /* O książce - autor, cena, gatunek + gdzie kupić */
+    {
+        margin-left: 500px;
+    }
+/* O książce - autor, cena, gatunek + gdzie kupić */
 #author
-{    
-    font-size: 14px;
-}
+    {    
+        font-size: 14px;
+    }
 #cat
-{
-    font-size: 14px;
-}
+    {
+        font-size: 14px;
+    }
 #price
-{
-    font-size: 14px;
-}
-    #price2
-{
-    font-size: 10px;
-}
+    {
+        font-size: 14px;
+    }
+#price2
+    {
+        font-size: 10px;
+    }
+.first
+    {
+        margin-left: 80px;
+    }
 }
 @media only screen and (max-width: 800px)
 {
-	.star
+.star
 	{
 		font-size: 25px;
 	}
+.first
+    {
+        margin-left: 60px;
+    }
 }
