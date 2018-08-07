@@ -13,16 +13,25 @@
         <link rel="icon" href="img/book.png">
          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
          <script src="JS/slider.js"></script>
+        <script>    
+            $(document).ready(function() {
+            $('.hamburger').click(function(){
+            $('.nav-menu').toggleClass('visible');
+            });
+            });
+        </script>
     </head>
     
     <body onload="zmienslajd()" >
        
        <main>
            <article>
-               <nav>
-                   <ul>
+            <header class="container clearfix">
+                <nav>
+                <a href="#" class="hamburger"></a>
+                   <ul class="nav-menu">
                        <li><a href="index.html">Home</a></li>
-                            <li id="main"><a href="categories.html">Categories</a>
+                            <li id="main" ><a href="categories.html">Categories</a>
                                 <ul id="categories">
                                     <li class="cat"><a id="link1" href="categories.html#cat1">Science-Fiction</a></li>
                                     <li class="cat"><a id="link2" href="categories.html#cat2">Fantasy</a></li>
@@ -36,10 +45,12 @@
                             <li id="border"></li>
                             <li id="contact"><a href="contact_us.html">Contact us</a></li>
                             <li ><a href="aboutus.html">About us</a></li>
-                            <li><a href="feedback.html">Feedback</a></li>          
+                            <li><a href="feedback.html">Feedback</a></li>
+                       <a href="javascript:void(0);" class="icon" onclick="myFunction()"></a>
                    </ul>
                    <img src="img/logo3.png" alt="" />
-               </nav>
+                </nav>
+               </header>
            </article>
            
            <article>
