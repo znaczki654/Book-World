@@ -1,3 +1,1 @@
-chalk ++ -> buy buttons ->> responsive chyba zrobione
-ifistay ++ -> comments ->> responsive
-zamieniæ w ksi¹¿kach na id="price2" ten mniejszy napis
+ifistay ++ -> comments
