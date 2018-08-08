@@ -556,7 +556,7 @@ ul >li:last-child
 }
 #box
 {
-    float:left;
+    float: left;
     height: 45%;
     width: 45%;
 }
@@ -568,6 +568,7 @@ ul >li:last-child
     margin-bottom: 10%;
     margin-left: 100px;
     opacity: 0.9;
+    resize: none;
 }
 
 .examples
