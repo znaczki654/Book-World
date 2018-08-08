@@ -790,7 +790,7 @@ details
     color: #fff;
     padding: 10px 15px;
     float: right;
-    font-size: 1.4em;
+    font-size: 1.65em;
     text-decoration: none;
 }
 
@@ -803,39 +803,7 @@ header nav ul.visible{
 }
 
 
-@media screen and (max-width: 768px) {
-    .container{
-        width: 100%;
-    }
 
-    header nav{
-        width: 100%;
-    }
-
-    header nav ul li{
-        display: block;
-        width: 100%;
-        height: 40px;
-        line-height: 40px;
-        padding: 0;
-    }
-
-    header nav ul li a{
-        text-align: center;
-        font-size: 1.3em;
-    }
-
-    header nav ul{
-        display: none;  
-    }
-
-    .hamburger{
-        display: block;
-        position: absolute;
-        top: 15px;
-        right: 10px;
-    }
-}
 
 @media only screen and (max-width: 1800px) 
 {
@@ -1293,6 +1261,7 @@ ul > li
 nav > img
     {
         transform: scale(0.55);
+        top: 1px;
     }
 #border
     {
@@ -1311,10 +1280,6 @@ nav > img
 nav
     {
         height: 55px;
-    }
-nav > img
-    {
-        top: 1px;
     }
 #submit-button
     {
@@ -1399,4 +1364,40 @@ nav > img
         margin-left: 60px;
     }
 }
+@media only screen and (max-width: 768px) {
+    .container{
+        width: 100%;
+    }
 
+    header nav{
+        width: 100%;
+    }
+
+    header nav ul li{
+        display: block;
+        width: 100%;
+        height: 40px;
+        line-height: 40px;
+        padding: 0;
+    }
+
+    header nav ul li a{
+        text-align: center;
+        font-size: 1.3em;
+    }
+
+    header nav ul{
+        display: none;  
+    }
+
+    .hamburger{
+        display: block;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
+nav > img
+    {
+        left: -85px;
+    }
+}
