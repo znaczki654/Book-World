@@ -1,1 +1,2 @@
 ifistay ++ -> comments
+feedback.html -> tajemnica uploadu.

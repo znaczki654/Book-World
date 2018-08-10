@@ -598,7 +598,6 @@ ul >li:last-child
 }
 #submit-button
 {
-  
     font-size: 32px;
     color: white;
     position: relative;
@@ -609,6 +608,20 @@ ul >li:last-child
     margin-bottom: 50px;
 }
 #submit-button:hover
+{
+    transform: scale(1.02);
+    cursor: pointer;
+}
+#submit-button2
+{
+  
+    font-size: 32px;
+    color: white;
+    margin-left: 500px;
+    margin-right: 0px;
+    margin-bottom: 50px;
+}
+#submit-button2:hover
 {
     transform: scale(1.02);
     cursor: pointer;
