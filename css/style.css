@@ -145,6 +145,7 @@ ul >li:last-child
     color: white;
     font-size: 18px;
     z-index: 10;
+    min-height: 600px;
 }
 #slides
 {
@@ -163,6 +164,7 @@ ul >li:last-child
 .dot
 {
     color: white;
+    position: relative;
 }
 .dot:hover
 {
