@@ -123,7 +123,6 @@ ul >li:last-child
     padding-left: 30px;
     padding-right: 30px;
     font-size: 26px;
-    
 }
 .cat:first-child
 {
@@ -1075,7 +1074,7 @@ nav > img
     }
 }
 
-@media only screen and (max-width: 1360px)
+@media only screen and (max-width: 1366px)
 {
 .buy-price
 	{
@@ -1086,6 +1085,12 @@ nav > img
 	{
     	margin-left: 40px;
 	}
+#categories
+{
+     height: 50px;
+     width: 850px;
+     margin-top: 19px;
+}
 .cat
     {
         font-size: 17px;    
