@@ -1,0 +1,35 @@
+php_value display_errors 1
+
+
+RewriteEngine On
+
+# Delete .html and .php before the names of the sites
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule !.*\.php$ %{REQUEST_FILENAME}.php [QSA,L]
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule !.*\.html$ %{REQUEST_FILENAME}.html [QSA,L]
+
+
+# Redirecting to the https:// from http://
+RewriteCond %{HTTPS} !on
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
+
+# Custom Error Document Site
+#404
+    #ErrorDocument 404 https://znaczki654.github.io/znaczki654/404
+#403
+    #ErrorDocument 403 https://znaczki654.github.io/znaczki654/404
+
+# Deny from all and put a basic apache's website
+#Order deny,allow
+#Deny from all
+
+
+# 503 error - make the website closed for maintanance
+#RewriteEngine On
+#RewriteCond %{REMOTE_ADDR} !^111\.111\.111\.111$
+#RewriteCond %{REQUEST_URI} !\.(css|gif|ico|jpg|js|png|swf|txt)$
+#RewriteRule .* - [R=503,L]
+
+# Delete directory listing
+Options -Indexes
